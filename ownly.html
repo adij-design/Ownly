@@ -1,0 +1,1371 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<title>Ownly — Products, Documents & Warranties</title>
+<meta name="description" content="Ownly: your products, documents and warranties in one place.">
+<meta property="og:title" content="Ownly">
+<meta property="og:description" content="Your products, documents and warranties in one place.">
+<meta property="og:type" content="website">
+<script crossorigin src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" integrity="sha384-DGyLxAyjq0f9SPpVevD6IgztCFlnMF6oW/XQGmfe+IsZ8TqEiDrcHkMLKI6fiB/Z"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" integrity="sha384-gTGxhz21lVGYNMcdJOyq01Edg0jhn/c22nsx0kyqP0TxaV5WVdsSH1fSDUf5YJj1"></script>
+<script>window.__resources={"airpods":"assets/airpods.jpeg"};</script>
+<script defer src="assets/image-slot.js"></script>
+<script defer src="assets/dc-runtime.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+
+
+
+<style>
+html,body{margin:0;padding:0;background:#E8E8EB;font-family:"Plus Jakarta Sans",-apple-system,BlinkMacSystemFont,"SF Pro Text",Helvetica,sans-serif;-webkit-font-smoothing:antialiased}
+*{box-sizing:border-box}
+a{color:#101114;text-decoration:none}
+a:hover{color:#6E7278}
+input,select,button{font-family:inherit}
+input:focus,select:focus{outline:none}
+::-webkit-scrollbar{width:0;height:0}
+@keyframes pop{0%{transform:scale(.5);opacity:0}60%{transform:scale(1.06)}100%{transform:scale(1);opacity:1}}
+@keyframes fadeUp{from{transform:translateY(8px);opacity:0}to{transform:translateY(0);opacity:1}}
+@keyframes slideIn{from{transform:translateX(14px);opacity:0}to{transform:translateX(0);opacity:1}}
+@keyframes sheetUp{from{transform:translateY(100%)}to{transform:translateY(0)}}
+@keyframes dim{from{opacity:0}to{opacity:1}}
+@keyframes dash{from{stroke-dashoffset:40}to{stroke-dashoffset:0}}
+@keyframes bar{0%{transform:scaleX(.2);opacity:.5}100%{transform:scaleX(1);opacity:1}}
+@keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
+</style>
+</helmet>
+
+<div style="min-height:100vh;display:flex;align-items:center;justify-content:center;padding:32px 16px;background:#E8E8EB">
+<div style="width:393px;height:852px;background:linear-gradient(180deg,#FFFFFF 0%,#ECECF0 100%);border-radius:54px;box-shadow:0 0 0 11px #17171c,0 0 0 12px #3a3a42;overflow:hidden;position:relative;display:flex;flex-direction:column">
+
+  <div style="position:absolute;top:0;left:0;right:0;height:54px;z-index:40;display:flex;align-items:flex-end;justify-content:space-between;padding:0 32px 9px;font-size:14px;font-weight:600;color:#101114;pointer-events:none">
+    <span>9:41</span>
+    <span style="display:flex;gap:6px;align-items:flex-end">
+      <svg width="17" height="11" sc-camel-view-box="0 0 17 11" fill="none"><rect x="0" y="7" width="3" height="4" rx="1" fill="#101114"></rect><rect x="4.5" y="5" width="3" height="6" rx="1" fill="#101114"></rect><rect x="9" y="2.5" width="3" height="8.5" rx="1" fill="#101114"></rect><rect x="13.5" y="0" width="3" height="11" rx="1" fill="#101114"></rect></svg>
+      <svg width="24" height="11" sc-camel-view-box="0 0 24 11" fill="none"><rect x="0.5" y="0.5" width="19" height="10" rx="3" stroke="#101114" opacity=".45"></rect><rect x="2" y="2" width="14" height="7" rx="1.8" fill="#101114"></rect><path d="M21 4v3a2 2 0 0 0 0-3z" fill="#101114" opacity=".45"></path></svg>
+    </span>
+  </div>
+  <div style="position:absolute;top:11px;left:50%;transform:translateX(-50%);width:104px;height:30px;background:#17171c;border-radius:26px;z-index:45"></div>
+
+  <div style="flex:1;overflow-y:auto;overflow-x:hidden;position:relative">
+
+    <sc-if value="{{ isSplash }}" hint-placeholder-val="{{ false }}">
+      <div style="height:852px;display:flex;flex-direction:column;align-items:center;justify-content:center;background:#fff;gap:16px">
+        <svg width="64" height="64" sc-camel-view-box="0 0 24 24" fill="none" stroke="#101114" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.2 12 3l9 5.2v7.6L12 21l-9-5.2V8.2Z"></path><path d="M3 8.2 12 13.4l9-5.2M12 13.4V21"></path></svg>
+        <div style="font-size:30px;font-weight:600;letter-spacing:-.5px;color:#101114">Ownly</div>
+        <div style="font-size:14.5px;color:#8A8D96;text-align:center;max-width:248px;line-height:1.5;text-wrap:pretty">Your products, documents and warranties in one place.</div>
+        <div style="width:120px;height:2px;background:#EAEAEE;border-radius:2px;margin-top:24px;overflow:hidden"><div style="height:2px;width:100%;background:{{ accent }};transform-origin:left;animation:bar 1.7s ease-out forwards"></div></div>
+      </div>
+    </sc-if>
+
+    <sc-if value="{{ isOnboarding }}" hint-placeholder-val="{{ true }}">
+      <div style="min-height:852px;display:flex;flex-direction:column;padding:70px 24px 36px;background:#fff">
+        <div style="display:flex;justify-content:flex-end">
+          <button sc-camel-on-click="{{ skipOnboarding }}" style="border:none;background:none;font-size:15px;color:#8A8D96;padding:8px 4px;cursor:pointer" style-active="transform:scale(.97)">Skip</button>
+        </div>
+        <div style="flex:1;display:flex;flex-direction:column;justify-content:center;gap:32px">
+          <div style="height:270px;border-radius:32px;border:1px solid #EAEAEE;background:#FAFAFC;display:flex;align-items:center;justify-content:center;padding:26px">
+            <div style="width:100%;border:1px solid #EAEAEE;border-radius:26px;background:#fff;padding:16px;display:flex;flex-direction:column;gap:14px;animation:slideIn .35s ease">
+              <div style="display:flex;gap:12px;align-items:center">
+                <div style="width:52px;height:52px;border-radius:22px;background:#F1F1F4;display:flex;align-items:center;justify-content:center">
+                  <svg width="22" height="22" sc-camel-view-box="0 0 24 24" fill="none" stroke="#9A9DA6" stroke-width="1.5" stroke-linecap="round"><rect x="3" y="5" width="18" height="14" rx="2.5"></rect><circle cx="12" cy="12" r="3.2"></circle><path d="M8 5l1.4-2h5.2L16 5"></path></svg>
+                </div>
+                <div>
+                  <div style="font:600 11px ui-monospace,Menlo,monospace;color:#9A9DA6;letter-spacing:.06em">{{ onbTag }}</div>
+                  <div style="font-size:15.5px;font-weight:600;color:#101114;margin-top:3px">{{ onbCard }}</div>
+                </div>
+              </div>
+              <div style="height:1px;background:#F1F1F4"></div>
+              <div style="display:flex;justify-content:space-between;font-size:13px;color:#8A8D96"><span>{{ onbRowK }}</span><span style="color:#101114;font-weight:600">{{ onbRowV }}</span></div>
+              <div style="height:5px;border-radius:3px;background:#F1F1F4"><div style="height:5px;width:62%;border-radius:3px;background:{{ accent }}"></div></div>
+            </div>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:10px">
+            <div style="font-size:27px;font-weight:600;letter-spacing:-.6px;line-height:1.2;color:#101114;text-wrap:pretty">{{ onbTitle }}</div>
+            <div style="font-size:15px;line-height:1.55;color:#8A8D96;text-wrap:pretty">{{ onbBody }}</div>
+          </div>
+          <div style="display:flex;gap:6px">
+            <sc-for list="{{ onbDots }}" as="d" hint-placeholder-count="3">
+              <span style="height:5px;border-radius:3px;width:{{ d.w }};background:{{ d.bg }};transition:all .28s ease"></span>
+            </sc-for>
+          </div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:12px;align-items:center">
+          <button sc-camel-on-click="{{ onbNext }}" style="width:100%;height:52px;border:none;border-radius:999px;background:linear-gradient(180deg,#2B2B30,#101114);color:#fff;box-shadow:inset 0 1px 0 rgba(255,255,255,.22),0 10px 22px rgba(0,0,0,.28);font-size:17px;font-weight:600;cursor:pointer;transition:transform .12s ease" style-active="transform:scale(.98)">{{ onbCta }}</button>
+          <div style="font-size:14px;color:#8A8D96">Already have an account? <a href="#" sc-camel-on-click="{{ skipOnboarding }}" style="font-weight:600" style-active="opacity:.5">Log In</a></div>
+        </div>
+      </div>
+    </sc-if>
+
+    <sc-if value="{{ isHome }}">
+      <div style="padding:64px 20px 118px;animation:fadeUp .28s ease">
+        <div style="display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:20px">
+          <div>
+            <div style="font-size:13.5px;color:#8A8D96">Good morning</div>
+            <div style="font-size:27px;font-weight:600;letter-spacing:-.5px;color:#101114">Rahul</div>
+          </div>
+          <button sc-camel-on-click="{{ goAlerts }}" style="position:relative;width:42px;height:42px;border-radius:999px;background:#fff;border:1px solid #EAEAEE;cursor:pointer;display:flex;align-items:center;justify-content:center" style-active="transform:scale(.95)">
+            <svg width="20" height="20" sc-camel-view-box="0 0 24 24" fill="none" stroke="#101114" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15.5V11a6 6 0 1 0-12 0v4.5L4.5 18h15L18 15.5Z"></path><path d="M10 21h4"></path></svg>
+            <sc-if value="{{ hasAlerts }}" hint-placeholder-val="{{ true }}">
+              <span style="position:absolute;top:-4px;right:-4px;min-width:19px;height:19px;border-radius:10px;background:#D93A3F;color:#fff;font-size:11px;font-weight:600;display:flex;align-items:center;justify-content:center;padding:0 5px;border:2px solid #F5F5F7">{{ alertCount }}</span>
+            </sc-if>
+          </button>
+        </div>
+
+        <div style="position:relative;height:154px;margin-bottom:24px">
+          <div style="position:absolute;left:16px;right:16px;top:18px;height:110px;border-radius:30px;background:#fff;border:1px solid #EDEDF1"></div>
+          <div style="position:absolute;left:8px;right:8px;top:9px;height:118px;border-radius:30px;background:#fff;border:1px solid #EAEAEE"></div>
+          <div style="position:absolute;left:0;right:0;top:0;height:132px;padding:18px;border-radius:32px;background:#101114;color:#fff;box-shadow:0 10px 24px rgba(0,0,0,.28);display:flex;flex-direction:column;justify-content:space-between">
+            <div style="display:flex;justify-content:space-between;align-items:flex-start">
+              <div style="font:600 10.5px ui-monospace,Menlo,monospace;letter-spacing:.1em;opacity:.6">MY THINGS</div>
+              <svg width="16" height="16" sc-camel-view-box="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.4" stroke-linejoin="round" opacity=".6"><path d="M3 8.2 12 3l9 5.2v7.6L12 21l-9-5.2V8.2Z"></path></svg>
+            </div>
+            <div style="display:flex;align-items:flex-end;justify-content:space-between">
+              <div>
+                <div style="font-size:40px;font-weight:600;letter-spacing:-1.4px;line-height:1">{{ productCount }}</div>
+                <div style="font-size:13px;opacity:.6">products saved</div>
+              </div>
+              <div style="text-align:right;font-size:13px;line-height:1.55;opacity:.75">
+                <div>{{ docCount }} documents</div>
+                <div>{{ activeCount }} warranties active</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <sc-if value="{{ hasWarn }}" hint-placeholder-val="{{ true }}">
+          <div style="background:#fff;border:1px solid #EAEAEE;border-radius:28px;padding:16px;margin-bottom:24px">
+            <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px">
+              <svg width="15" height="15" sc-camel-view-box="0 0 24 24" fill="none" stroke="#C6741A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4 2.5 20h19L12 4Z"></path><path d="M12 10v4.5M12 17.4v.1"></path></svg>
+              <span style="font-size:12.5px;font-weight:600;letter-spacing:.02em;color:#C6741A">Warranty ending soon</span>
+            </div>
+            <div style="display:flex;align-items:center;gap:13px">
+              <div style="width:48px;height:48px;border-radius:22px;overflow:hidden;flex:none;border:1px solid #EEEEF2">
+                <sc-if value="{{ warnHasImg }}" hint-placeholder-val="{{ false }}"><div style="width:100%;height:100%;background-image:{{ warnImgCss }};background-size:cover;background-position:center"></div></sc-if><sc-if value="{{ warnNoImg }}" hint-placeholder-val="{{ true }}"><div style="width:100%;height:100%;background:{{ warnArtBg }};display:flex;align-items:center;justify-content:center"><svg width="24" height="24" sc-camel-view-box="0 0 24 24" fill="none" stroke="{{ warnArtInk }}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 8.5 12 4.5l8.5 4-8.5 4-8.5-4Z"></path><path d="M3.5 8.5v7l8.5 4 8.5-4v-7M12 12.5v7"></path></svg></div></sc-if>
+              </div>
+              <div style="flex:1;min-width:0">
+                <div style="font-size:16.5px;font-weight:600;color:#101114">{{ warnName }}</div>
+                <div style="font-size:13px;color:#8A8D96">{{ warnSub }}</div>
+              </div>
+              <button sc-camel-on-click="{{ openWarn }}" style="flex:none;height:36px;padding:0 15px;border-radius:999px;border:none;background:linear-gradient(180deg,#2B2B30,#101114);color:#fff;box-shadow:inset 0 1px 0 rgba(255,255,255,.22),0 10px 22px rgba(0,0,0,.28);font-size:14px;font-weight:600;cursor:pointer" style-active="transform:scale(.96)">View</button>
+            </div>
+          </div>
+        </sc-if>
+
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
+          <div style="font-size:19px;font-weight:600;letter-spacing:-.3px;color:#101114">Recent</div>
+          <a href="#" sc-camel-on-click="{{ goProducts }}" style="font-size:14.5px;font-weight:500" style-active="opacity:.5">See all</a>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:8px;margin-bottom:22px">
+          <sc-for list="{{ recent }}" as="p" hint-placeholder-count="3">
+            <div sc-camel-on-click="{{ p.open }}" style="background:#fff;border:1px solid #EAEAEE;border-radius:26px;padding:11px;display:flex;gap:13px;align-items:center;cursor:pointer;transition:background .15s ease,transform .15s ease" style-hover="background:#FBFBFD" style-active="transform:scale(.99)">
+              <div style="width:56px;height:56px;border-radius:22px;overflow:hidden;flex:none;border:1px solid #EEEEF2">
+                <sc-if value="{{ p.hasImg }}" hint-placeholder-val="{{ false }}"><div style="width:100%;height:100%;background-image:{{ p.imgCss }};background-size:cover;background-position:center"></div></sc-if><sc-if value="{{ p.noImg }}" hint-placeholder-val="{{ true }}"><div style="width:100%;height:100%;background:{{ p.artBg }};display:flex;align-items:center;justify-content:center"><svg width="26" height="26" sc-camel-view-box="0 0 24 24" fill="none" stroke="{{ p.artInk }}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 8.5 12 4.5l8.5 4-8.5 4-8.5-4Z"></path><path d="M3.5 8.5v7l8.5 4 8.5-4v-7M12 12.5v7"></path></svg></div></sc-if>
+              </div>
+              <div style="flex:1;min-width:0">
+                <div style="font-size:16px;font-weight:600;color:#101114;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ p.name }}</div>
+                <div style="font-size:13px;color:#8A8D96">{{ p.brand }}</div>
+                <div style="display:flex;align-items:center;gap:6px;margin-top:5px">
+                  <span style="display:inline-flex;align-items:center;gap:6px;background:{{ p.statusBg }};border-radius:999px;padding:4px 10px;font-size:12px;font-weight:600;color:{{ p.statusColor }}"><span style="width:6px;height:6px;border-radius:50%;background:{{ p.statusColor }}"></span>{{ p.statusLabel }}</span>
+                </div>
+              </div>
+              <svg width="18" height="18" sc-camel-view-box="0 0 24 24" fill="none" stroke="#C7C9D1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"></path></svg>
+            </div>
+          </sc-for>
+        </div>
+
+        <button sc-camel-on-click="{{ goAdd }}" style="width:100%;height:52px;border-radius:999px;border:1px solid rgba(255,255,255,.9);background:rgba(255,255,255,.78);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);color:#101114;font-size:16px;font-weight:600;display:flex;align-items:center;justify-content:center;gap:8px;cursor:pointer" style-hover="background:#FBFBFD" style-active="transform:scale(.99)">
+          <svg width="18" height="18" sc-camel-view-box="0 0 24 24" fill="none" stroke="#101114" stroke-width="1.8" stroke-linecap="round"><path d="M12 5v14M5 12h14"></path></svg>Add Product
+        </button>
+      </div>
+    </sc-if>
+
+    <sc-if value="{{ isProducts }}">
+      <div style="padding:64px 20px 118px;animation:fadeUp .28s ease">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:14px">
+          <div style="font-size:30px;font-weight:600;letter-spacing:-.8px;color:#101114">Products</div>
+          <button sc-camel-on-click="{{ toggleView }}" style="width:38px;height:38px;border-radius:999px;border:1px solid #EAEAEE;background:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer" style-active="transform:scale(.95)">
+            <sc-if value="{{ isGrid }}" hint-placeholder-val="{{ false }}">
+              <svg width="18" height="18" sc-camel-view-box="0 0 24 24" fill="none" stroke="#101114" stroke-width="1.7" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"></path></svg>
+            </sc-if>
+            <sc-if value="{{ isList }}" hint-placeholder-val="{{ true }}">
+              <svg width="18" height="18" sc-camel-view-box="0 0 24 24" fill="none" stroke="#101114" stroke-width="1.6"><rect x="3.5" y="3.5" width="7" height="7" rx="1.8"></rect><rect x="13.5" y="3.5" width="7" height="7" rx="1.8"></rect><rect x="3.5" y="13.5" width="7" height="7" rx="1.8"></rect><rect x="13.5" y="13.5" width="7" height="7" rx="1.8"></rect></svg>
+            </sc-if>
+          </button>
+        </div>
+        <div style="display:flex;align-items:center;gap:9px;height:52px;padding:0 18px;border-radius:999px;background:rgba(255,255,255,.62);backdrop-filter:blur(16px) saturate(1.4);-webkit-backdrop-filter:blur(16px) saturate(1.4);border:1px solid rgba(255,255,255,.9);box-shadow:0 4px 16px rgba(60,50,30,.08);margin-bottom:12px">
+          <svg width="17" height="17" sc-camel-view-box="0 0 24 24" fill="none" stroke="#8A8D96" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"></circle><path d="M16 16l4.5 4.5"></path></svg>
+          <input value="{{ query }}" sc-camel-on-change="{{ setQuery }}" placeholder="Search products, brand or store" style="flex:1;border:none;background:none;font-size:16px;color:#101114">
+          <sc-if value="{{ hasQuery }}" hint-placeholder-val="{{ false }}">
+            <button sc-camel-on-click="{{ clearQuery }}" style="border:none;background:#C7C9D1;width:18px;height:18px;border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;padding:0" style-active="transform:scale(.97)">
+              <svg width="10" height="10" sc-camel-view-box="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+            </button>
+          </sc-if>
+        </div>
+        <div style="display:flex;gap:7px;overflow-x:auto;margin:0 -20px 16px;padding:0 20px 4px">
+          <sc-for list="{{ cats }}" as="c" hint-placeholder-count="5">
+            <button sc-camel-on-click="{{ c.pick }}" style="flex:none;height:34px;padding:0 14px;border-radius:999px;border:1px solid {{ c.border }};background:{{ c.bg }};color:{{ c.color }};font-size:14px;font-weight:500;cursor:pointer;transition:all .15s ease" style-active="transform:scale(.97)">{{ c.name }}</button>
+          </sc-for>
+        </div>
+
+        <sc-if value="{{ isLoading }}" hint-placeholder-val="{{ false }}">
+          <div style="display:flex;flex-direction:column;gap:8px">
+            <sc-for list="{{ skel }}" as="k" hint-placeholder-count="3">
+              <div style="background:#fff;border:1px solid #EAEAEE;border-radius:28px;padding:13px;display:flex;gap:13px;align-items:center">
+                <div style="width:62px;height:62px;border-radius:24px;background:linear-gradient(90deg,#EDEDF1 25%,#F7F7F9 50%,#EDEDF1 75%);background-size:200% 100%;animation:shimmer 1.1s linear infinite"></div>
+                <div style="flex:1"><div style="height:14px;border-radius:7px;width:55%;background:linear-gradient(90deg,#EDEDF1 25%,#F7F7F9 50%,#EDEDF1 75%);background-size:200% 100%;animation:shimmer 1.1s linear infinite"></div><div style="height:12px;border-radius:6px;width:35%;margin-top:8px;background:linear-gradient(90deg,#EDEDF1 25%,#F7F7F9 50%,#EDEDF1 75%);background-size:200% 100%;animation:shimmer 1.1s linear infinite"></div></div>
+              </div>
+            </sc-for>
+          </div>
+        </sc-if>
+        <sc-if value="{{ ready }}" hint-placeholder-val="{{ true }}"><sc-if value="{{ showListView }}" hint-placeholder-val="{{ true }}">
+          <div style="font-size:11.5px;color:#B7BAC2;margin:0 0 8px 4px">Swipe a row left to delete</div>
+          <div style="display:flex;flex-direction:column;gap:8px">
+            <sc-for list="{{ filtered }}" as="p" hint-placeholder-count="4">
+              <div style="position:relative;border-radius:28px;overflow:hidden">
+              <div style="position:absolute;inset:0;display:flex;justify-content:flex-end;align-items:stretch">
+                <button sc-camel-on-click="{{ p.askDelete }}" style="width:96px;border:none;background:#D93A3F;color:#fff;font-size:14px;font-weight:600;cursor:pointer" style-active="transform:scale(.97)">Delete</button>
+              </div>
+              <div sc-camel-on-click="{{ p.rowTap }}" sc-camel-on-pointer-down="{{ p.down }}" sc-camel-on-pointer-up="{{ p.up }}" style="position:relative;background:#fff;border:1px solid #EAEAEE;border-radius:28px;padding:13px;cursor:pointer;transform:translateX({{ p.offset }});transition:transform .22s cubic-bezier(.2,.8,.3,1),background .15s ease" style-hover="background:#FBFBFD">
+                <div style="display:flex;gap:13px;align-items:center">
+                  <div style="width:62px;height:62px;border-radius:24px;overflow:hidden;flex:none;border:1px solid #EEEEF2">
+                    <sc-if value="{{ p.hasImg }}" hint-placeholder-val="{{ false }}"><div style="width:100%;height:100%;background-image:{{ p.imgCss }};background-size:cover;background-position:center"></div></sc-if><sc-if value="{{ p.noImg }}" hint-placeholder-val="{{ true }}"><div style="width:100%;height:100%;background:{{ p.artBg }};display:flex;align-items:center;justify-content:center"><svg width="26" height="26" sc-camel-view-box="0 0 24 24" fill="none" stroke="{{ p.artInk }}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 8.5 12 4.5l8.5 4-8.5 4-8.5-4Z"></path><path d="M3.5 8.5v7l8.5 4 8.5-4v-7M12 12.5v7"></path></svg></div></sc-if>
+                  </div>
+                  <div style="flex:1;min-width:0">
+                    <div style="font-size:16.5px;font-weight:600;color:#101114">{{ p.name }}</div>
+                    <div style="font-size:13px;color:#8A8D96;margin-bottom:6px">{{ p.brand }} · {{ p.category }}</div>
+                    <div style="display:flex;align-items:center;gap:6px">
+                      <span style="display:inline-flex;align-items:center;gap:6px;background:{{ p.statusBg }};border-radius:999px;padding:4px 10px;font-size:12px;font-weight:600;color:{{ p.statusColor }}"><span style="width:6px;height:6px;border-radius:50%;background:{{ p.statusColor }}"></span>{{ p.statusLabel }}</span>
+                    </div>
+                  </div>
+                  <svg width="18" height="18" sc-camel-view-box="0 0 24 24" fill="none" stroke="#C7C9D1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"></path></svg>
+                </div>
+                <div style="display:flex;justify-content:space-between;align-items:center;margin-top:11px;padding-top:10px;border-top:1px solid #F2F2F5;font-size:12.5px;color:#8A8D96">
+                  <span>{{ p.untilLabel }}</span>
+                  <span>Receipt · Warranty</span>
+                </div>
+              </div>
+              </div>
+            </sc-for>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ showGridView }}" hint-placeholder-val="{{ false }}">
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+            <sc-for list="{{ filtered }}" as="p" hint-placeholder-count="4">
+              <div sc-camel-on-click="{{ p.open }}" style="background:#fff;border:1px solid #EAEAEE;border-radius:28px;padding:10px;cursor:pointer;transition:background .15s ease,transform .15s ease" style-hover="background:#FBFBFD" style-active="transform:scale(.99)">
+                <div style="height:104px;border-radius:22px;overflow:hidden;border:1px solid #EEEEF2;margin-bottom:10px">
+                  <sc-if value="{{ p.hasImg }}" hint-placeholder-val="{{ false }}"><div style="width:100%;height:100%;background-image:{{ p.imgCss }};background-size:cover;background-position:center"></div></sc-if><sc-if value="{{ p.noImg }}" hint-placeholder-val="{{ true }}"><div style="width:100%;height:100%;background:{{ p.artBg }};display:flex;align-items:center;justify-content:center"><svg width="26" height="26" sc-camel-view-box="0 0 24 24" fill="none" stroke="{{ p.artInk }}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 8.5 12 4.5l8.5 4-8.5 4-8.5-4Z"></path><path d="M3.5 8.5v7l8.5 4 8.5-4v-7M12 12.5v7"></path></svg></div></sc-if>
+                </div>
+                <div style="font-size:14.5px;font-weight:600;color:#101114;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ p.name }}</div>
+                <div style="font-size:12.5px;color:#8A8D96;margin-bottom:6px">{{ p.brand }}</div>
+                <div style="display:flex;align-items:center;gap:6px">
+                  <span style="display:inline-flex;align-items:center;gap:6px;background:{{ p.statusBg }};border-radius:999px;padding:4px 10px;font-size:12px;font-weight:600;color:{{ p.statusColor }}"><span style="width:6px;height:6px;border-radius:50%;background:{{ p.statusColor }}"></span>{{ p.statusShort }}</span>
+                </div>
+              </div>
+            </sc-for>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ noResults }}" hint-placeholder-val="{{ false }}">
+          <div style="padding:70px 20px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:9px">
+            <svg width="34" height="34" sc-camel-view-box="0 0 24 24" fill="none" stroke="#C7C9D1" stroke-width="1.5" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"></circle><path d="M16 16l4.5 4.5"></path></svg>
+            <div style="font-size:17.5px;font-weight:600;color:#101114">No product found</div>
+            <div style="font-size:14px;color:#8A8D96">Try another product name.</div>
+            <button sc-camel-on-click="{{ clearQuery }}" style="margin-top:14px;height:44px;padding:0 22px;border-radius:999px;border:1px solid rgba(255,255,255,.9);background:rgba(255,255,255,.78);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);font-size:15px;font-weight:600;color:#101114;cursor:pointer" style-active="transform:scale(.97)">Clear search</button>
+          </div>
+        </sc-if></sc-if>
+      </div>
+    </sc-if>
+
+    <sc-if value="{{ isDetail }}">
+      <div style="padding-bottom:118px;animation:fadeUp .28s ease">
+        <div style="height:300px;background:#EDEDF1;position:relative">
+          <sc-if value="{{ selHasImg }}" hint-placeholder-val="{{ false }}"><div style="width:100%;height:300px;background-image:{{ selImgCss }};background-size:cover;background-position:center"></div></sc-if>
+          <sc-if value="{{ selNoImg }}" hint-placeholder-val="{{ true }}"><div style="width:100%;height:300px;background:{{ selArtBg }};display:flex;align-items:center;justify-content:center"><svg width="64" height="64" sc-camel-view-box="0 0 24 24" fill="none" stroke="{{ selArtInk }}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 8.5 12 4.5l8.5 4-8.5 4-8.5-4Z"></path><path d="M3.5 8.5v7l8.5 4 8.5-4v-7M12 12.5v7"></path></svg></div></sc-if>
+          <div style="position:absolute;top:58px;left:16px;right:16px;display:flex;justify-content:space-between;pointer-events:none">
+            <button sc-camel-on-click="{{ back }}" style="pointer-events:auto;width:38px;height:38px;border-radius:50%;border:none;background:rgba(255,255,255,.9);backdrop-filter:blur(10px);display:flex;align-items:center;justify-content:center;cursor:pointer" style-active="transform:scale(.94)">
+              <svg width="18" height="18" sc-camel-view-box="0 0 24 24" fill="none" stroke="#101114" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"></path></svg>
+            </button>
+            <button sc-camel-on-click="{{ openMenu }}" style="pointer-events:auto;width:38px;height:38px;border-radius:50%;border:none;background:rgba(255,255,255,.9);backdrop-filter:blur(10px);display:flex;align-items:center;justify-content:center;cursor:pointer" style-active="transform:scale(.94)">
+              <svg width="18" height="18" sc-camel-view-box="0 0 24 24" fill="#101114"><circle cx="5" cy="12" r="1.7"></circle><circle cx="12" cy="12" r="1.7"></circle><circle cx="19" cy="12" r="1.7"></circle></svg>
+            </button>
+          </div>
+        </div>
+
+        <div style="padding:20px;margin-top:-24px;background:#F5F5F7;border-radius:32px 24px 0 0;position:relative">
+          <div style="font-size:13px;color:#8A8D96;margin-top:4px">{{ sel.brand }}</div>
+          <div style="font-size:26px;font-weight:600;letter-spacing:-.6px;color:#101114;margin-bottom:16px">{{ sel.name }}</div>
+
+          <div style="border:1px solid #EAEAEE;border-radius:30px;padding:18px;background:#fff;margin-bottom:12px">
+            <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px">
+              <span style="width:8px;height:8px;border-radius:50%;background:{{ selStatusColor }}"></span>
+              <span style="font-size:12.5px;font-weight:600;color:#5F6270">{{ selStatusTitle }}</span>
+            </div>
+            <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:12px">
+              <div style="flex:1;min-width:0">
+                <div style="font-size:22px;font-weight:600;letter-spacing:-.4px;color:#101114;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ selDaysLine }}</div>
+                <div style="font-size:13.5px;color:#8A8D96;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ selEndsLine }}</div>
+              </div>
+              <button sc-camel-on-click="{{ goWarranty }}" style="flex:none;height:38px;padding:0 15px;border-radius:999px;border:1px solid rgba(255,255,255,.9);background:rgba(255,255,255,.78);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);color:#101114;font-size:14px;font-weight:600;cursor:pointer" style-active="transform:scale(.96)">Details</button>
+            </div>
+            <div style="height:6px;border-radius:3px;background:#F1F1F4;margin-top:16px;overflow:hidden">
+              <div style="height:6px;border-radius:3px;width:{{ selProgress }};background:{{ selStatusColor }};transition:width .4s ease"></div>
+            </div>
+          </div>
+
+          <div style="background:#fff;border:1px solid #EAEAEE;border-radius:30px;padding:4px 16px;margin-bottom:12px">
+            <div style="font-size:11.5px;font-weight:600;letter-spacing:.07em;color:#9A9DA6;padding:13px 0 7px">PURCHASE</div>
+            <sc-for list="{{ purchaseRows }}" as="r" hint-placeholder-count="4">
+              <div style="display:flex;justify-content:space-between;padding:12px 0;border-top:1px solid #F2F2F5;font-size:15px">
+                <span style="color:#8A8D96">{{ r.k }}</span>
+                <span style="color:#101114;font-weight:500">{{ r.v }}</span>
+              </div>
+            </sc-for>
+          </div>
+
+          <div style="background:#fff;border:1px solid #EAEAEE;border-radius:30px;padding:4px 16px;margin-bottom:12px">
+            <div style="font-size:11.5px;font-weight:600;letter-spacing:.07em;color:#9A9DA6;padding:13px 0 7px">DOCUMENTS</div>
+            <div sc-camel-on-click="{{ goReceipt }}" style="display:flex;align-items:center;gap:12px;padding:13px 0;border-top:1px solid #F2F2F5;cursor:pointer" style-active="transform:scale(.97)">
+              <svg width="20" height="20" sc-camel-view-box="0 0 24 24" fill="none" stroke="#5F6270" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h8l4 4v14H6V3Z"></path><path d="M14 3v4h4M9 12h6M9 16h4"></path></svg>
+              <span style="flex:1;font-size:15.5px;color:#101114">Receipt</span>
+              <span style="font-size:13px;color:#8A8D96">receipt.pdf</span>
+              <svg width="17" height="17" sc-camel-view-box="0 0 24 24" fill="none" stroke="#C7C9D1" stroke-width="2" stroke-linecap="round"><path d="M9 5l7 7-7 7"></path></svg>
+            </div>
+            <div sc-camel-on-click="{{ goWarranty }}" style="display:flex;align-items:center;gap:12px;padding:13px 0;border-top:1px solid #F2F2F5;cursor:pointer" style-active="transform:scale(.97)">
+              <svg width="20" height="20" sc-camel-view-box="0 0 24 24" fill="none" stroke="#5F6270" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.6 8-8 9-4.4-1-8-4-8-9V6l8-3Z"></path></svg>
+              <span style="flex:1;font-size:15.5px;color:#101114">Warranty</span>
+              <span style="font-size:13px;color:#8A8D96">warranty.pdf</span>
+              <svg width="17" height="17" sc-camel-view-box="0 0 24 24" fill="none" stroke="#C7C9D1" stroke-width="2" stroke-linecap="round"><path d="M9 5l7 7-7 7"></path></svg>
+            </div>
+            <div style="display:flex;align-items:center;gap:12px;padding:13px 0;border-top:1px solid #F2F2F5">
+              <svg width="20" height="20" sc-camel-view-box="0 0 24 24" fill="none" stroke="#5F6270" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15.5V11a6 6 0 1 0-12 0v4.5L4.5 18h15L18 15.5Z"></path><path d="M10 21h4"></path></svg>
+              <span style="flex:1;font-size:15.5px;color:#101114">Expiry reminder</span>
+              <button sc-camel-on-click="{{ toggleReminder }}" style="width:50px;height:31px;border-radius:999px;border:none;background:{{ reminderTrack }};position:relative;cursor:pointer;transition:background .22s ease;padding:0" style-active="transform:scale(.97)">
+                <span style="position:absolute;top:2.5px;left:{{ reminderKnob }};width:26px;height:26px;border-radius:50%;background:#fff;transition:left .22s ease"></span>
+              </button>
+            </div>
+          </div>
+
+          <div sc-camel-on-click="{{ goClaim }}" style="background:{{ accent }};border-radius:28px;padding:17px;display:flex;align-items:center;gap:13px;cursor:pointer;transition:opacity .15s ease" style-hover="opacity:.9" style-active="transform:scale(.99)">
+            <svg width="20" height="20" sc-camel-view-box="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 4.5a4 4 0 0 1 5 5L9 20H4v-5L14.5 4.5Z"></path></svg>
+            <div style="flex:1">
+              <div style="font-size:15.5px;font-weight:600;color:#fff">Warranty claim help</div>
+              <div style="font-size:12.5px;color:rgba(255,255,255,.55)">What you need and the steps to follow</div>
+            </div>
+            <svg width="17" height="17" sc-camel-view-box="0 0 24 24" fill="none" stroke="rgba(255,255,255,.5)" stroke-width="2" stroke-linecap="round"><path d="M9 5l7 7-7 7"></path></svg>
+          </div>
+        </div>
+      </div>
+    </sc-if>
+
+    <sc-if value="{{ isReceipt }}">
+      <div style="padding:64px 20px 118px;animation:fadeUp .28s ease">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:18px">
+          <button sc-camel-on-click="{{ back }}" style="width:38px;height:38px;border-radius:50%;border:1px solid #EAEAEE;background:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer" style-active="transform:scale(.94)">
+            <svg width="18" height="18" sc-camel-view-box="0 0 24 24" fill="none" stroke="#101114" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"></path></svg>
+          </button>
+          <div style="font-size:21px;font-weight:600;letter-spacing:-.3px;color:#101114">Receipt</div>
+        </div>
+        <div sc-camel-on-click="{{ openViewer }}" style="background:#E9E9ED;border:1px solid #E2E2E7;border-radius:30px;padding:26px 22px;margin-bottom:12px;cursor:pointer;position:relative;overflow:hidden" style-active="transform:scale(.97)">
+          <div style="background:#FBFAF7;border-radius:3px;padding:20px 18px 16px;transform:rotate(-1.1deg);box-shadow:0 14px 26px rgba(16,24,40,.16),0 1px 0 rgba(0,0,0,.05);font:400 12.5px ui-monospace,Menlo,monospace;color:#33353C;line-height:1.75">
+            <div style="text-align:center;font-weight:700;letter-spacing:.14em;font-size:13px">{{ receiptStore }}</div>
+            <div style="text-align:center;font-size:10.5px;color:#8A8D96;letter-spacing:.06em">{{ receiptAddr }}</div>
+            <div style="margin:13px 0;border-top:1px dashed #C9C6BE"></div>
+            <sc-for list="{{ receiptLines }}" as="l" hint-placeholder-count="3">
+              <div style="display:flex;justify-content:space-between;gap:10px"><span>{{ l.k }}</span><span>{{ l.v }}</span></div>
+            </sc-for>
+            <div style="margin:13px 0;border-top:1px dashed #C9C6BE"></div>
+            <div style="display:flex;justify-content:space-between;font-weight:700;font-size:14px"><span>TOTAL</span><span>{{ sel.price }}</span></div>
+            <div style="display:flex;justify-content:space-between;font-size:11px;color:#6C6F78;margin-top:4px"><span>CARD ····4417</span><span>APPROVED</span></div>
+            <div style="margin:14px 0 8px;border-top:1px dashed #C9C6BE"></div>
+            <div style="font-size:10px;color:#8A8D96;text-align:center;letter-spacing:.04em">{{ receiptDate }} · {{ sel.orderNumber }}</div>
+            <div style="display:flex;gap:1.5px;justify-content:center;height:34px;align-items:flex-end;margin-top:12px">
+              <sc-for list="{{ barcode }}" as="b" hint-placeholder-count="30">
+                <span style="width:{{ b.w }};height:32px;background:#2A2C31;opacity:{{ b.o }}"></span>
+              </sc-for>
+            </div>
+            <div style="font-size:9.5px;color:#8A8D96;text-align:center;letter-spacing:.22em;margin-top:5px">{{ sel.orderNumber }}</div>
+          </div>
+          <div style="position:absolute;top:0;left:0;right:0;bottom:0;background:linear-gradient(115deg,rgba(255,255,255,.28) 0%,rgba(255,255,255,0) 42%);pointer-events:none"></div>
+          <div style="margin-top:16px;font:600 10.5px ui-monospace,Menlo,monospace;color:#9A9DA6;text-align:center;position:relative">photo of receipt · tap to open</div>
+        </div>
+        <div style="background:#fff;border:1px solid #EAEAEE;border-radius:30px;padding:4px 16px;margin-bottom:16px">
+          <sc-for list="{{ purchaseRows }}" as="r" hint-placeholder-count="4">
+            <div style="display:flex;justify-content:space-between;padding:13px 0;border-top:1px solid #F2F2F5;font-size:15px">
+              <span style="color:#8A8D96">{{ r.k }}</span><span style="color:#101114;font-weight:500">{{ r.v }}</span>
+            </div>
+          </sc-for>
+        </div>
+        <div style="display:flex;gap:9px">
+          <button sc-camel-on-click="{{ toastDownload }}" style="flex:1;height:48px;border-radius:999px;border:1px solid rgba(255,255,255,.9);background:rgba(255,255,255,.78);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);font-size:15px;font-weight:600;color:#101114;display:flex;align-items:center;justify-content:center;gap:8px;cursor:pointer" style-active="transform:scale(.98)">
+            <svg width="17" height="17" sc-camel-view-box="0 0 24 24" fill="none" stroke="#101114" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11m0 0 4.5-4.5M12 15l-4.5-4.5M4.5 19h15"></path></svg>Save
+          </button>
+          <button sc-camel-on-click="{{ toastShare }}" style="flex:1;height:48px;border-radius:999px;border:1px solid rgba(255,255,255,.9);background:rgba(255,255,255,.78);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);font-size:15px;font-weight:600;color:#101114;display:flex;align-items:center;justify-content:center;gap:8px;cursor:pointer" style-active="transform:scale(.98)">
+            <svg width="17" height="17" sc-camel-view-box="0 0 24 24" fill="none" stroke="#101114" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16V4m0 0L7.5 8.5M12 4l4.5 4.5M5 14v5h14v-5"></path></svg>Share
+          </button>
+        </div>
+      </div>
+    </sc-if>
+
+    <sc-if value="{{ isWarranty }}">
+      <div style="padding:64px 20px 118px;animation:fadeUp .28s ease">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:18px">
+          <button sc-camel-on-click="{{ back }}" style="width:38px;height:38px;border-radius:50%;border:1px solid #EAEAEE;background:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer" style-active="transform:scale(.94)">
+            <svg width="18" height="18" sc-camel-view-box="0 0 24 24" fill="none" stroke="#101114" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"></path></svg>
+          </button>
+          <div style="font-size:21px;font-weight:600;letter-spacing:-.3px;color:#101114">Warranty</div>
+        </div>
+        <div style="border:1px solid #EAEAEE;border-radius:32px;padding:22px;background:#fff;margin-bottom:12px">
+          <div style="display:flex;align-items:center;gap:8px;margin-bottom:14px">
+            <span style="width:9px;height:9px;border-radius:50%;background:{{ selStatusColor }}"></span>
+            <span style="font-size:12px;font-weight:600;letter-spacing:.08em;color:#5F6270">{{ selStatusUpper }}</span>
+          </div>
+          <div style="font-size:30px;font-weight:600;letter-spacing:-.9px;color:#101114;line-height:1.1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ selDaysLine }}</div>
+          <div style="font-size:14px;color:#8A8D96;margin-top:6px">{{ selEndsLine }}</div>
+          <div style="height:6px;border-radius:3px;background:#F1F1F4;margin-top:18px;overflow:hidden">
+            <div style="height:6px;border-radius:3px;width:{{ selProgress }};background:{{ selStatusColor }}"></div>
+          </div>
+          <div style="display:flex;justify-content:space-between;margin-top:8px;font-size:12px;color:#9A9DA6"><span>{{ selStart }}</span><span>{{ selEnd }}</span></div>
+        </div>
+        <div style="background:#fff;border:1px solid #EAEAEE;border-radius:30px;padding:16px;margin-bottom:12px">
+          <div style="font-size:11.5px;font-weight:600;letter-spacing:.07em;color:#9A9DA6;margin-bottom:7px">TYPE</div>
+          <div style="font-size:16px;font-weight:500;color:#101114">{{ selWarrantyType }}</div>
+          <div style="font-size:11.5px;font-weight:600;letter-spacing:.07em;color:#9A9DA6;margin:18px 0 9px">COVERAGE</div>
+          <div style="display:flex;flex-direction:column;gap:9px">
+            <sc-for list="{{ coverage }}" as="c" hint-placeholder-count="3">
+              <div style="display:flex;gap:9px;align-items:center;font-size:15px;color:#101114">
+                <svg width="16" height="16" sc-camel-view-box="0 0 24 24" fill="none" stroke="#2E7D4F" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"></path></svg>{{ c.t }}
+              </div>
+            </sc-for>
+          </div>
+        </div>
+        <div style="background:#fff;border:1px solid #EAEAEE;border-radius:30px;padding:4px 16px;margin-bottom:16px">
+          <div sc-camel-on-click="{{ openViewer }}" style="display:flex;align-items:center;gap:12px;padding:14px 0;border-top:1px solid #F2F2F5;cursor:pointer" style-active="transform:scale(.97)">
+            <svg width="20" height="20" sc-camel-view-box="0 0 24 24" fill="none" stroke="#5F6270" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.6 8-8 9-4.4-1-8-4-8-9V6l8-3Z"></path></svg>
+            <span style="flex:1;font-size:15.5px;color:#101114">Warranty document</span>
+            <svg width="17" height="17" sc-camel-view-box="0 0 24 24" fill="none" stroke="#C7C9D1" stroke-width="2" stroke-linecap="round"><path d="M9 5l7 7-7 7"></path></svg>
+          </div>
+          <div sc-camel-on-click="{{ goReceipt }}" style="display:flex;align-items:center;gap:12px;padding:14px 0;border-top:1px solid #F2F2F5;cursor:pointer" style-active="transform:scale(.97)">
+            <svg width="20" height="20" sc-camel-view-box="0 0 24 24" fill="none" stroke="#5F6270" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h8l4 4v14H6V3Z"></path><path d="M14 3v4h4M9 12h6M9 16h4"></path></svg>
+            <span style="flex:1;font-size:15.5px;color:#101114">Receipt</span>
+            <svg width="17" height="17" sc-camel-view-box="0 0 24 24" fill="none" stroke="#C7C9D1" stroke-width="2" stroke-linecap="round"><path d="M9 5l7 7-7 7"></path></svg>
+          </div>
+        </div>
+        <button sc-camel-on-click="{{ goClaim }}" style="width:100%;height:52px;border-radius:999px;border:none;background:linear-gradient(180deg,#2B2B30,#101114);color:#fff;box-shadow:inset 0 1px 0 rgba(255,255,255,.22),0 10px 22px rgba(0,0,0,.28);font-size:17px;font-weight:600;cursor:pointer" style-active="transform:scale(.99)">Claim Help</button>
+      </div>
+    </sc-if>
+
+    <sc-if value="{{ isClaim }}">
+      <div style="padding:64px 20px 118px;animation:fadeUp .28s ease">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:18px">
+          <button sc-camel-on-click="{{ back }}" style="width:38px;height:38px;border-radius:50%;border:1px solid #EAEAEE;background:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer" style-active="transform:scale(.94)">
+            <svg width="18" height="18" sc-camel-view-box="0 0 24 24" fill="none" stroke="#101114" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"></path></svg>
+          </button>
+          <div style="font-size:21px;font-weight:600;letter-spacing:-.3px;color:#101114">Claim help</div>
+        </div>
+        <div style="background:#fff;border:1px solid #EAEAEE;border-radius:28px;padding:14px;display:flex;gap:13px;align-items:center;margin-bottom:14px">
+          <div style="width:50px;height:50px;border-radius:22px;overflow:hidden;border:1px solid #EEEEF2;flex:none">
+            <sc-if value="{{ selHasImg }}" hint-placeholder-val="{{ false }}"><div style="width:100%;height:100%;background-image:{{ selImgCss }};background-size:cover;background-position:center"></div></sc-if><sc-if value="{{ selNoImg }}" hint-placeholder-val="{{ true }}"><div style="width:100%;height:100%;background:{{ selArtBg }};display:flex;align-items:center;justify-content:center"><svg width="24" height="24" sc-camel-view-box="0 0 24 24" fill="none" stroke="{{ selArtInk }}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 8.5 12 4.5l8.5 4-8.5 4-8.5-4Z"></path><path d="M3.5 8.5v7l8.5 4 8.5-4v-7M12 12.5v7"></path></svg></div></sc-if>
+          </div>
+          <div>
+            <div style="font-size:16.5px;font-weight:600;color:#101114">{{ sel.name }}</div>
+            <div style="display:flex;align-items:center;gap:6px;margin-top:3px">
+              <span style="width:6px;height:6px;border-radius:50%;background:{{ selStatusColor }}"></span>
+              <span style="font-size:13px;color:#5F6270">{{ selStatusTitle }} · {{ selDaysLine }}</span>
+            </div>
+          </div>
+        </div>
+        <div style="font-size:11.5px;font-weight:600;letter-spacing:.07em;color:#9A9DA6;margin:0 0 9px 4px">WHAT YOU NEED</div>
+        <div style="background:#fff;border:1px solid #EAEAEE;border-radius:28px;padding:4px 16px;margin-bottom:20px">
+          <sc-for list="{{ needs }}" as="n" hint-placeholder-count="4">
+            <div sc-camel-on-click="{{ n.toggle }}" style="display:flex;align-items:center;gap:11px;padding:14px 0;border-top:1px solid #F2F2F5;font-size:15px;color:#101114;cursor:pointer" style-active="transform:scale(.97)">
+              <span style="width:22px;height:22px;border-radius:50%;border:1.6px solid {{ n.ring }};background:{{ n.fill }};display:flex;align-items:center;justify-content:center;transition:all .18s ease">
+                <svg width="12" height="12" sc-camel-view-box="0 0 24 24" fill="none" stroke="{{ n.tick }}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"></path></svg>
+              </span>
+              <span style="flex:1">{{ n.t }}</span>
+              <span style="font-size:12.5px;color:#8A8D96">{{ n.state }}</span>
+            </div>
+          </sc-for>
+        </div>
+        <div style="font-size:11.5px;font-weight:600;letter-spacing:.07em;color:#9A9DA6;margin:0 0 9px 4px">CLAIM STEPS</div>
+        <div style="display:flex;flex-direction:column;gap:8px;margin-bottom:16px">
+          <sc-for list="{{ steps }}" as="s" hint-placeholder-count="5">
+            <div style="background:#fff;border:1px solid #EAEAEE;border-radius:24px;padding:14px 15px;display:flex;gap:12px;align-items:center">
+              <span style="width:26px;height:26px;border-radius:9px;background:#F1F1F4;color:#5F6270;font-size:13.5px;font-weight:600;display:flex;align-items:center;justify-content:center;flex:none">{{ s.n }}</span>
+              <span style="font-size:15px;color:#101114;text-wrap:pretty">{{ s.t }}</span>
+            </div>
+          </sc-for>
+        </div>
+        <div style="font-size:12.5px;color:#9A9DA6;line-height:1.5;margin-bottom:14px;text-wrap:pretty">Ownly helps you prepare a claim. Approval is decided by the manufacturer or store.</div>
+        <button sc-camel-on-click="{{ goService }}" style="width:100%;height:52px;border-radius:999px;border:none;background:linear-gradient(180deg,#2B2B30,#101114);color:#fff;box-shadow:inset 0 1px 0 rgba(255,255,255,.22),0 10px 22px rgba(0,0,0,.28);font-size:17px;font-weight:600;cursor:pointer" style-active="transform:scale(.99)">Find service center</button>
+      </div>
+    </sc-if>
+
+    <sc-if value="{{ isService }}">
+      <div style="padding:64px 20px 118px;animation:fadeUp .28s ease">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px">
+          <button sc-camel-on-click="{{ back }}" style="width:38px;height:38px;border-radius:50%;border:1px solid #EAEAEE;background:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer" style-active="transform:scale(.94)">
+            <svg width="18" height="18" sc-camel-view-box="0 0 24 24" fill="none" stroke="#101114" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"></path></svg>
+          </button>
+          <div style="font-size:21px;font-weight:600;letter-spacing:-.3px;color:#101114">Service center</div>
+        </div>
+        <div style="display:flex;align-items:center;gap:9px;height:52px;padding:0 18px;border-radius:999px;background:rgba(255,255,255,.62);backdrop-filter:blur(16px) saturate(1.4);-webkit-backdrop-filter:blur(16px) saturate(1.4);border:1px solid rgba(255,255,255,.9);box-shadow:0 4px 16px rgba(60,50,30,.08);margin-bottom:14px">
+          <svg width="17" height="17" sc-camel-view-box="0 0 24 24" fill="none" stroke="#8A8D96" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.3 7-11.5A7 7 0 0 0 5 9.5C5 14.7 12 21 12 21Z"></path><circle cx="12" cy="9.5" r="2.4"></circle></svg>
+          <input value="{{ locQuery }}" sc-camel-on-change="{{ setLoc }}" placeholder="Search location" style="flex:1;border:none;background:none;font-size:16px;color:#101114">
+          <sc-if value="{{ hasLoc }}" hint-placeholder-val="{{ false }}">
+            <button sc-camel-on-click="{{ clearLoc }}" style="border:none;background:#C7C9D1;width:18px;height:18px;border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;padding:0" style-active="transform:scale(.9)">
+              <svg width="10" height="10" sc-camel-view-box="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+            </button>
+          </sc-if>
+        </div>
+        <div style="height:150px;border-radius:28px;background:#EDEDF1;border:1px solid #E6E6EB;position:relative;overflow:hidden;margin-bottom:14px;display:flex;align-items:center;justify-content:center">
+          <div style="position:absolute;inset:0;background-image:repeating-linear-gradient(0deg,rgba(16,17,20,.045) 0 1px,transparent 1px 26px),repeating-linear-gradient(90deg,rgba(16,17,20,.045) 0 1px,transparent 1px 26px)"></div>
+          <div style="font:600 10.5px ui-monospace,Menlo,monospace;color:#9A9DA6">map placeholder</div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:8px">
+          <sc-for list="{{ centers }}" as="c" hint-placeholder-count="3">
+            <div style="background:#fff;border:1px solid #EAEAEE;border-radius:26px;padding:15px;display:flex;gap:12px;align-items:center">
+              <svg width="20" height="20" sc-camel-view-box="0 0 24 24" fill="none" stroke="#5F6270" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 4.5a4 4 0 0 1 5 5L9 20H4v-5L14.5 4.5Z"></path></svg>
+              <div style="flex:1;min-width:0">
+                <div style="font-size:15.5px;font-weight:600;color:#101114">{{ c.name }}</div>
+                <div style="font-size:13px;color:#8A8D96">{{ c.dist }} · {{ c.open }}</div>
+              </div>
+              <button sc-camel-on-click="{{ toastDirections }}" style="height:34px;padding:0 13px;border-radius:999px;border:1px solid rgba(255,255,255,.9);background:rgba(255,255,255,.78);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);font-size:13.5px;font-weight:600;color:#101114;cursor:pointer" style-active="transform:scale(.96)">Directions</button>
+            </div>
+          </sc-for>
+          <sc-if value="{{ noCenters }}" hint-placeholder-val="{{ false }}">
+            <div style="padding:36px 20px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:8px">
+              <svg width="32" height="32" sc-camel-view-box="0 0 24 24" fill="none" stroke="#C7C9D1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.3 7-11.5A7 7 0 0 0 5 9.5C5 14.7 12 21 12 21Z"></path><circle cx="12" cy="9.5" r="2.4"></circle></svg>
+              <div style="font-size:16.5px;font-weight:600;color:#101114">No service centers found</div>
+              <div style="font-size:13.5px;color:#8A8D96">Try another area or clear the search.</div>
+              <button sc-camel-on-click="{{ clearLoc }}" style="margin-top:10px;height:44px;padding:0 22px;border-radius:999px;border:1px solid rgba(255,255,255,.9);background:rgba(255,255,255,.78);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);font-size:15px;font-weight:600;color:#101114;cursor:pointer" style-active="transform:scale(.97)">Clear search</button>
+            </div>
+          </sc-if>
+        </div>
+      </div>
+    </sc-if>
+
+    <sc-if value="{{ isAlerts }}">
+      <div style="padding:64px 20px 118px;animation:fadeUp .28s ease">
+        <div style="font-size:30px;font-weight:600;letter-spacing:-.8px;color:#101114;margin-bottom:18px">Alerts</div>
+        <sc-if value="{{ hasAlerts }}" hint-placeholder-val="{{ true }}">
+          <div style="display:flex;flex-direction:column;gap:20px">
+            <sc-for list="{{ alertGroups }}" as="g" hint-placeholder-count="2">
+              <div>
+                <div style="font-size:11.5px;font-weight:600;letter-spacing:.07em;color:#9A9DA6;margin:0 0 9px 4px">{{ g.label }}</div>
+                <div style="display:flex;flex-direction:column;gap:8px">
+                  <sc-for list="{{ g.items }}" as="a" hint-placeholder-count="2">
+                    <div style="background:#fff;border:1px solid #EAEAEE;border-radius:28px;padding:15px">
+                      <div style="display:flex;gap:12px;align-items:center">
+                        <div style="width:44px;height:44px;border-radius:20px;overflow:hidden;border:1px solid #EEEEF2;flex:none">
+                          <sc-if value="{{ a.hasImg }}" hint-placeholder-val="{{ false }}"><div style="width:100%;height:100%;background-image:{{ a.imgCss }};background-size:cover;background-position:center"></div></sc-if><sc-if value="{{ a.noImg }}" hint-placeholder-val="{{ true }}"><div style="width:100%;height:100%;background:{{ a.artBg }};display:flex;align-items:center;justify-content:center"><svg width="22" height="22" sc-camel-view-box="0 0 24 24" fill="none" stroke="{{ a.artInk }}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 8.5 12 4.5l8.5 4-8.5 4-8.5-4Z"></path><path d="M3.5 8.5v7l8.5 4 8.5-4v-7M12 12.5v7"></path></svg></div></sc-if>
+                        </div>
+                        <div style="flex:1;min-width:0">
+                          <div style="display:flex;align-items:center;gap:6px">
+                            <span style="width:6px;height:6px;border-radius:50%;background:{{ a.color }}"></span>
+                            <span style="font-size:12.5px;color:#5F6270">{{ a.kind }}</span>
+                          </div>
+                          <div style="font-size:16px;font-weight:600;color:#101114;margin-top:2px">{{ a.name }}</div>
+                          <div style="font-size:13px;color:#8A8D96">{{ a.sub }}</div>
+                        </div>
+                      </div>
+                      <div style="display:flex;gap:8px;margin-top:13px">
+                        <button sc-camel-on-click="{{ a.openWarranty }}" style="flex:1;height:38px;border-radius:999px;border:none;background:linear-gradient(180deg,#2B2B30,#101114);color:#fff;box-shadow:inset 0 1px 0 rgba(255,255,255,.22),0 10px 22px rgba(0,0,0,.28);font-size:14px;font-weight:600;cursor:pointer" style-active="transform:scale(.98)">View warranty</button>
+                        <button sc-camel-on-click="{{ a.openClaim }}" style="flex:1;height:38px;border-radius:999px;border:1px solid rgba(255,255,255,.9);background:rgba(255,255,255,.78);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);color:#101114;font-size:14px;font-weight:600;cursor:pointer" style-active="transform:scale(.98)">Claim help</button>
+                      </div>
+                    </div>
+                  </sc-for>
+                </div>
+              </div>
+            </sc-for>
+          </div>
+        </sc-if>
+        <sc-if value="{{ noAlerts }}" hint-placeholder-val="{{ false }}">
+          <div style="padding:80px 20px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:9px">
+            <svg width="32" height="32" sc-camel-view-box="0 0 24 24" fill="none" stroke="#2E7D4F" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M7.5 12.5l3 3 6-6.5"></path></svg>
+            <div style="font-size:17.5px;font-weight:600;color:#101114">You're all caught up</div>
+            <div style="font-size:14px;color:#8A8D96">No warranty reminders right now.</div>
+          </div>
+        </sc-if>
+      </div>
+    </sc-if>
+
+    <sc-if value="{{ isProfile }}">
+      <div style="padding:64px 20px 118px;animation:fadeUp .28s ease">
+        <div style="font-size:30px;font-weight:600;letter-spacing:-.8px;color:#101114;margin-bottom:18px">Profile</div>
+        <div style="background:#fff;border:1px solid #EAEAEE;border-radius:30px;padding:17px;display:flex;gap:14px;align-items:center;margin-bottom:20px">
+          <div style="width:56px;height:56px;border-radius:50%;overflow:hidden;border:1px solid #EEEEF2;flex:none">
+            <div style="width:100%;height:100%;background:#F1F1F4;display:flex;align-items:center;justify-content:center"><svg width="24" height="24" sc-camel-view-box="0 0 24 24" fill="none" stroke="#B7BAC2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8.5" r="3.8"></circle><path d="M4.5 20c.8-3.6 3.8-5.5 7.5-5.5s6.7 1.9 7.5 5.5"></path></svg></div>
+          </div>
+          <div>
+            <div style="font-size:18.5px;font-weight:600;color:#101114">Rahul Mehta</div>
+            <div style="font-size:14px;color:#8A8D96">rahul@email.com</div>
+          </div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:18px">
+          <sc-for list="{{ profileSections }}" as="s" hint-placeholder-count="5">
+            <div>
+              <div style="font-size:11.5px;font-weight:600;letter-spacing:.07em;color:#9A9DA6;margin:0 0 8px 4px">{{ s.label }}</div>
+              <div style="background:#fff;border:1px solid #EAEAEE;border-radius:26px;padding:0 16px">
+                <sc-for list="{{ s.rows }}" as="r" hint-placeholder-count="2">
+                  <div sc-camel-on-click="{{ r.tap }}" style="display:flex;align-items:center;gap:12px;padding:15px 0;border-top:1px solid #F2F2F5;cursor:pointer" style-active="transform:scale(.97)">
+                    <span style="flex:1;font-size:15.5px;color:#101114">{{ r.t }}</span>
+                    <span style="font-size:13.5px;color:#8A8D96">{{ r.v }}</span>
+                    <svg width="17" height="17" sc-camel-view-box="0 0 24 24" fill="none" stroke="#C7C9D1" stroke-width="2" stroke-linecap="round"><path d="M9 5l7 7-7 7"></path></svg>
+                  </div>
+                </sc-for>
+              </div>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+    </sc-if>
+
+    <sc-if value="{{ isAdd }}">
+      <div style="padding:60px 20px 132px;animation:fadeUp .28s ease">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px">
+          <button sc-camel-on-click="{{ addBack }}" style="width:38px;height:38px;border-radius:50%;border:1px solid #EAEAEE;background:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer;flex:none" style-active="transform:scale(.94)">
+            <svg width="18" height="18" sc-camel-view-box="0 0 24 24" fill="none" stroke="#101114" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"></path></svg>
+          </button>
+          <div style="flex:1;display:flex;gap:5px">
+            <sc-for list="{{ stepDots }}" as="d" hint-placeholder-count="5">
+              <span style="flex:1;height:4px;border-radius:2px;background:{{ d.bg }};transition:background .25s ease"></span>
+            </sc-for>
+          </div>
+          <span style="font:600 12px ui-monospace,Menlo,monospace;color:#9A9DA6">{{ stepLabel }}</span>
+        </div>
+        <div style="font-size:26px;font-weight:600;letter-spacing:-.6px;color:#101114">{{ addTitle }}</div>
+        <div style="font-size:15px;color:#8A8D96;margin:4px 0 20px;text-wrap:pretty">{{ addSubtitle }}</div>
+
+        <sc-if value="{{ step1 }}" hint-placeholder-val="{{ true }}">
+          <div style="display:flex;flex-direction:column;gap:12px">
+            <div style="border:1px solid #EAEAEE;border-radius:26px;overflow:hidden;background:#fff">
+              <image-slot id="draft-photo" shape="rect" placeholder="drop or click to add a product photo" style="width:100%;height:170px"></image-slot>
+            </div>
+            <button sc-camel-on-click="{{ openSheet }}" style="height:46px;border-radius:999px;border:1px solid rgba(255,255,255,.9);background:rgba(255,255,255,.78);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);color:#101114;font-size:15px;font-weight:600;display:flex;align-items:center;justify-content:center;gap:8px;cursor:pointer" style-active="transform:scale(.99)">
+              <svg width="18" height="18" sc-camel-view-box="0 0 24 24" fill="none" stroke="#101114" stroke-width="1.6" stroke-linecap="round"><rect x="3" y="6" width="18" height="14" rx="2.5"></rect><circle cx="12" cy="13" r="3.4"></circle><path d="M8.5 6 10 3.5h4L15.5 6"></path></svg>{{ photoLabel }}
+            </button>
+            <div style="border:1px solid {{ nameBorder }};border-radius:26px;padding:13px 16px;background:#fff">
+              <div style="font-size:11.5px;font-weight:600;letter-spacing:.05em;color:#9A9DA6;margin-bottom:3px">PRODUCT NAME</div>
+              <input value="{{ dName }}" sc-camel-on-change="{{ setName }}" placeholder="e.g. AirPods Pro" style="width:100%;border:none;background:none;font-size:16.5px;color:#101114">
+            </div>
+            <sc-if value="{{ hasErr }}" hint-placeholder-val="{{ false }}"><div style="font-size:13px;font-weight:500;color:#D93A3F;margin-top:8px;animation:fadeUp .2s ease">{{ errText }}</div></sc-if>
+            <div style="border:1px solid #EAEAEE;border-radius:26px;padding:13px 16px;background:#fff">
+              <div style="font-size:11.5px;font-weight:600;letter-spacing:.05em;color:#9A9DA6;margin-bottom:3px">BRAND</div>
+              <input value="{{ dBrand }}" sc-camel-on-change="{{ setBrand }}" placeholder="e.g. Apple" style="width:100%;border:none;background:none;font-size:16.5px;color:#101114">
+            </div>
+            <div>
+              <div style="font-size:11.5px;font-weight:600;letter-spacing:.05em;color:#9A9DA6;margin:0 0 8px 4px">CATEGORY</div>
+              <div style="display:flex;flex-wrap:wrap;gap:7px">
+                <sc-for list="{{ addCats }}" as="c" hint-placeholder-count="4">
+                  <button sc-camel-on-click="{{ c.pick }}" style="height:36px;padding:0 14px;border-radius:999px;border:1px solid {{ c.border }};background:{{ c.bg }};color:{{ c.color }};font-size:14.5px;font-weight:500;cursor:pointer;transition:all .15s ease" style-active="transform:scale(.97)">{{ c.name }}</button>
+                </sc-for>
+              </div>
+            </div>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ step2 }}" hint-placeholder-val="{{ false }}">
+          <div style="display:flex;flex-direction:column;gap:12px">
+            <div style="border:1px solid #EAEAEE;border-radius:26px;padding:13px 16px;background:#fff">
+              <div style="font-size:11.5px;font-weight:600;letter-spacing:.05em;color:#9A9DA6;margin-bottom:3px">PURCHASE DATE</div>
+              <input value="{{ dDate }}" sc-camel-on-change="{{ setDate }}" type="date" style="width:100%;border:none;background:none;font-size:16.5px;color:#101114">
+            </div>
+            <div style="border:1px solid #EAEAEE;border-radius:26px;padding:13px 16px;background:#fff">
+              <div style="font-size:11.5px;font-weight:600;letter-spacing:.05em;color:#9A9DA6;margin-bottom:3px">PRICE</div>
+              <input value="{{ dPrice }}" sc-camel-on-change="{{ setPrice }}" placeholder="₹24,900" style="width:100%;border:none;background:none;font-size:16.5px;color:#101114">
+            </div>
+            <div style="border:1px solid #EAEAEE;border-radius:26px;padding:13px 16px;background:#fff">
+              <div style="font-size:11.5px;font-weight:600;letter-spacing:.05em;color:#9A9DA6;margin-bottom:3px">STORE</div>
+              <input value="{{ dStore }}" sc-camel-on-change="{{ setStore }}" placeholder="e.g. Apple" style="width:100%;border:none;background:none;font-size:16.5px;color:#101114">
+            </div>
+            <div style="border:1px solid #EAEAEE;border-radius:26px;padding:13px 16px;background:#fff">
+              <div style="font-size:11.5px;font-weight:600;letter-spacing:.05em;color:#9A9DA6;margin-bottom:3px">ORDER NUMBER · OPTIONAL</div>
+              <input value="{{ dOrder }}" sc-camel-on-change="{{ setOrder }}" placeholder="W1234567890" style="width:100%;border:none;background:none;font-size:16.5px;color:#101114">
+            </div>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ step3 }}" hint-placeholder-val="{{ false }}">
+          <div style="display:flex;flex-direction:column;gap:10px">
+            <sc-if value="{{ noReceipt }}" hint-placeholder-val="{{ true }}">
+              <div style="display:flex;flex-direction:column;gap:10px">
+                <button sc-camel-on-click="{{ openSheet }}" style="height:112px;border-radius:28px;border:1px dashed #D2D4DC;background:#fff;color:#101114;font-size:15.5px;font-weight:600;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:9px;cursor:pointer" style-hover="background:#FBFBFD" style-active="transform:scale(.97)">
+                  <svg width="24" height="24" sc-camel-view-box="0 0 24 24" fill="none" stroke="#5F6270" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h8l4 4v14H6V3Z"></path><path d="M14 3v4h4"></path></svg>Upload document
+                </button>
+                <button sc-camel-on-click="{{ openReceiptCamera }}" style="height:112px;border-radius:28px;border:1px solid #EAEAEE;background:#fff;color:#101114;font-size:15.5px;font-weight:600;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:9px;cursor:pointer" style-hover="background:#FBFBFD" style-active="transform:scale(.97)">
+                  <svg width="24" height="24" sc-camel-view-box="0 0 24 24" fill="none" stroke="#5F6270" stroke-width="1.5" stroke-linecap="round"><rect x="3" y="6" width="18" height="14" rx="2.5"></rect><circle cx="12" cy="13" r="3.4"></circle><path d="M8.5 6 10 3.5h4L15.5 6"></path></svg>Take photo
+                </button>
+                <div style="font-size:12.5px;color:#9A9DA6;text-align:center">PDF, JPG or PNG</div>
+              </div>
+            </sc-if>
+            <sc-if value="{{ hasReceipt }}" hint-placeholder-val="{{ false }}">
+              <div style="background:#fff;border:1px solid #EAEAEE;border-radius:28px;padding:15px;display:flex;gap:13px;align-items:center;animation:pop .3s ease">
+                <div style="width:44px;height:44px;border-radius:20px;background:#F1F1F4;display:flex;align-items:center;justify-content:center;flex:none">
+                  <svg width="20" height="20" sc-camel-view-box="0 0 24 24" fill="none" stroke="#5F6270" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h8l4 4v14H6V3Z"></path><path d="M14 3v4h4M9 12h6M9 16h4"></path></svg>
+                </div>
+                <div style="flex:1">
+                  <div style="font-size:16px;font-weight:600;color:#101114">Receipt.pdf</div>
+                  <div style="font-size:13px;color:#5F6270">Added · 248 KB</div>
+                </div>
+                <button sc-camel-on-click="{{ removeReceipt }}" style="height:34px;padding:0 12px;border-radius:999px;border:1px solid rgba(255,255,255,.9);background:rgba(255,255,255,.78);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);font-size:13.5px;font-weight:600;color:#D93A3F;cursor:pointer" style-active="transform:scale(.96)">Remove</button>
+              </div>
+            </sc-if>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ step4 }}" hint-placeholder-val="{{ false }}">
+          <div style="display:flex;flex-direction:column;gap:12px">
+            <div style="display:flex;gap:10px">
+              <div style="flex:1;border:1px solid #EAEAEE;border-radius:26px;padding:13px 14px;background:#fff">
+                <div style="font-size:11.5px;font-weight:600;letter-spacing:.05em;color:#9A9DA6;margin-bottom:3px">START</div>
+                <input value="{{ dwStart }}" sc-camel-on-change="{{ setWStart }}" type="date" style="width:100%;border:none;background:none;font-size:15px;color:#101114">
+              </div>
+              <div style="flex:1;border:1px solid #EAEAEE;border-radius:26px;padding:13px 14px;background:#fff">
+                <div style="font-size:11.5px;font-weight:600;letter-spacing:.05em;color:#9A9DA6;margin-bottom:3px">END</div>
+                <input value="{{ dwEnd }}" sc-camel-on-change="{{ setWEnd }}" type="date" style="width:100%;border:none;background:none;font-size:15px;color:#101114">
+              </div>
+            </div>
+            <div>
+              <div style="font-size:11.5px;font-weight:600;letter-spacing:.05em;color:#9A9DA6;margin:0 0 8px 4px">WARRANTY TYPE</div>
+              <div style="display:flex;flex-direction:column;gap:8px">
+                <sc-for list="{{ wTypes }}" as="t" hint-placeholder-count="4">
+                  <button sc-camel-on-click="{{ t.pick }}" style="height:50px;border-radius:22px;border:1px solid {{ t.border }};background:#fff;display:flex;align-items:center;gap:11px;padding:0 15px;text-align:left;cursor:pointer;transition:border-color .15s ease" style-active="transform:scale(.97)">
+                    <span style="width:20px;height:20px;border-radius:50%;border:1.6px solid {{ t.dot }};display:flex;align-items:center;justify-content:center"><span style="width:10px;height:10px;border-radius:50%;background:{{ t.fill }};transition:background .15s ease"></span></span>
+                    <span style="font-size:15.5px;font-weight:500;color:#101114">{{ t.name }}</span>
+                  </button>
+                </sc-for>
+              </div>
+            </div>
+            <button sc-camel-on-click="{{ addWarrantyDoc }}" style="height:54px;border-radius:999px;border:1px solid rgba(255,255,255,.9);background:rgba(255,255,255,.78);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);display:flex;align-items:center;gap:12px;padding:0 16px;cursor:pointer" style-active="transform:scale(.99)">
+              <svg width="20" height="20" sc-camel-view-box="0 0 24 24" fill="none" stroke="#5F6270" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.6 8-8 9-4.4-1-8-4-8-9V6l8-3Z"></path></svg>
+              <span style="flex:1;text-align:left;font-size:15px;font-weight:600;color:#101114">{{ warrantyDocLabel }}</span>
+              <svg width="17" height="17" sc-camel-view-box="0 0 24 24" fill="none" stroke="#C7C9D1" stroke-width="2" stroke-linecap="round"><path d="M9 5l7 7-7 7"></path></svg>
+            </button>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ step5 }}" hint-placeholder-val="{{ false }}">
+          <div style="display:flex;flex-direction:column;gap:8px">
+            <sc-for list="{{ reminders }}" as="r" hint-placeholder-count="4">
+              <button sc-camel-on-click="{{ r.pick }}" style="height:54px;border-radius:22px;border:1px solid {{ r.border }};background:#fff;display:flex;align-items:center;gap:12px;padding:0 16px;cursor:pointer;transition:border-color .15s ease" style-active="transform:scale(.97)">
+                <span style="width:20px;height:20px;border-radius:50%;border:1.6px solid {{ r.dot }};display:flex;align-items:center;justify-content:center"><span style="width:10px;height:10px;border-radius:50%;background:{{ r.fill }};transition:background .15s ease"></span></span>
+                <span style="flex:1;text-align:left;font-size:16px;font-weight:500;color:#101114">{{ r.name }}</span>
+                <span style="font-size:12.5px;color:#9A9DA6">{{ r.note }}</span>
+              </button>
+            </sc-for>
+            <div style="margin-top:6px;border:1px solid #EAEAEE;background:#fff;border-radius:24px;padding:14px;display:flex;gap:10px;align-items:center">
+              <svg width="18" height="18" sc-camel-view-box="0 0 24 24" fill="none" stroke="#5F6270" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15.5V11a6 6 0 1 0-12 0v4.5L4.5 18h15L18 15.5Z"></path><path d="M10 21h4"></path></svg>
+              <span style="font-size:14.5px;color:#101114">Reminder enabled · {{ dReminder }}</span>
+            </div>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ step6 }}" hint-placeholder-val="{{ false }}">
+          <div style="display:flex;flex-direction:column;gap:12px">
+            <div style="background:#fff;border:1px solid #EAEAEE;border-radius:28px;padding:14px;display:flex;gap:13px;align-items:center">
+              <div style="width:54px;height:54px;border-radius:22px;overflow:hidden;border:1px solid #EEEEF2;flex:none">
+                <sc-if value="{{ draftHasImg }}" hint-placeholder-val="{{ false }}"><div style="width:100%;height:100%;background-image:{{ draftImgCss }};background-size:cover;background-position:center"></div></sc-if><sc-if value="{{ draftNoImg }}" hint-placeholder-val="{{ true }}"><div style="width:100%;height:100%;background:{{ draftArtBg }};display:flex;align-items:center;justify-content:center"><svg width="26" height="26" sc-camel-view-box="0 0 24 24" fill="none" stroke="{{ draftArtInk }}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 8.5 12 4.5l8.5 4-8.5 4-8.5-4Z"></path><path d="M3.5 8.5v7l8.5 4 8.5-4v-7M12 12.5v7"></path></svg></div></sc-if>
+              </div>
+              <div>
+                <div style="font-size:17.5px;font-weight:600;color:#101114">{{ reviewName }}</div>
+                <div style="font-size:13.5px;color:#8A8D96">{{ reviewBrand }} · {{ dCategory }}</div>
+              </div>
+            </div>
+            <div style="background:#fff;border:1px solid #EAEAEE;border-radius:28px;padding:4px 16px">
+              <sc-for list="{{ reviewRows }}" as="r" hint-placeholder-count="6">
+                <div style="display:flex;justify-content:space-between;padding:13px 0;border-top:1px solid #F2F2F5;font-size:15px">
+                  <span style="color:#8A8D96">{{ r.k }}</span>
+                  <span style="color:#101114;font-weight:500">{{ r.v }}</span>
+                </div>
+              </sc-for>
+            </div>
+            <button sc-camel-on-click="{{ editReview }}" style="height:46px;border-radius:999px;border:1px solid rgba(255,255,255,.9);background:rgba(255,255,255,.78);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);font-size:15px;font-weight:600;color:#101114;cursor:pointer" style-active="transform:scale(.99)">Edit details</button>
+          </div>
+        </sc-if>
+      </div>
+
+      <div style="position:absolute;bottom:0;left:0;right:0;padding:14px 20px 24px;background:linear-gradient(180deg,rgba(245,245,247,0),#F5F5F7 42%);display:flex;flex-direction:column;gap:6px;z-index:20">
+        <button sc-camel-on-click="{{ addNext }}" style="width:100%;height:52px;border-radius:999px;border:none;background:linear-gradient(180deg,#2B2B30,#101114);color:#fff;box-shadow:inset 0 1px 0 rgba(255,255,255,.22),0 10px 22px rgba(0,0,0,.28);font-size:17px;font-weight:600;cursor:pointer;transition:transform .12s ease" style-active="transform:scale(.99)">{{ addCta }}</button>
+        <sc-if value="{{ canSkip }}" hint-placeholder-val="{{ false }}">
+          <button sc-camel-on-click="{{ addSkip }}" style="width:100%;height:36px;border:none;background:none;font-size:15px;color:#8A8D96;cursor:pointer" style-active="transform:scale(.97)">Skip for now</button>
+        </sc-if>
+      </div>
+    </sc-if>
+
+    <sc-if value="{{ isSuccess }}" hint-placeholder-val="{{ false }}">
+      <div style="height:852px;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:40px 24px;gap:14px;background:#fff">
+        <div style="width:78px;height:78px;border-radius:50%;border:1.5px solid #DCE7DF;display:flex;align-items:center;justify-content:center;animation:pop .45s cubic-bezier(.2,.9,.3,1.2)">
+          <svg width="34" height="34" sc-camel-view-box="0 0 24 24" fill="none" stroke="#2E7D4F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7" style="stroke-dasharray:40;animation:dash .5s .15s ease forwards"></path></svg>
+        </div>
+        <div style="font-size:26px;font-weight:600;letter-spacing:-.6px;color:#101114;margin-top:6px">Product added</div>
+        <div style="font-size:16.5px;color:#8A8D96">{{ reviewName }}</div>
+        <div style="width:100%;border:1px solid #EAEAEE;border-radius:28px;padding:4px 16px;margin-top:12px">
+          <sc-for list="{{ successRows }}" as="r" hint-placeholder-count="3">
+            <div style="display:flex;justify-content:space-between;padding:13px 0;border-top:1px solid #F2F2F5;font-size:15px">
+              <span style="color:#8A8D96">{{ r.k }}</span><span style="color:#101114;font-weight:500">{{ r.v }}</span>
+            </div>
+          </sc-for>
+        </div>
+        <div style="width:100%;display:flex;flex-direction:column;gap:9px;margin-top:16px">
+          <button sc-camel-on-click="{{ viewNewProduct }}" style="height:52px;border-radius:999px;border:none;background:linear-gradient(180deg,#2B2B30,#101114);color:#fff;box-shadow:inset 0 1px 0 rgba(255,255,255,.22),0 10px 22px rgba(0,0,0,.28);font-size:17px;font-weight:600;cursor:pointer" style-active="transform:scale(.99)">View product</button>
+          <button sc-camel-on-click="{{ goHome }}" style="height:52px;border-radius:999px;border:1px solid rgba(255,255,255,.9);background:rgba(255,255,255,.78);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);font-size:17px;font-weight:600;color:#101114;cursor:pointer" style-active="transform:scale(.99)">Done</button>
+        </div>
+      </div>
+    </sc-if>
+
+  </div>
+
+  <sc-if value="{{ showTabs }}" hint-placeholder-val="{{ false }}">
+    <div style="position:absolute;bottom:0;left:0;right:0;padding:0 16px 20px;z-index:30;pointer-events:none">
+      <div style="pointer-events:auto;background:rgba(255,255,255,.7);backdrop-filter:blur(22px) saturate(1.5);-webkit-backdrop-filter:blur(22px) saturate(1.5);border:1px solid rgba(255,255,255,.9);border-radius:34px;box-shadow:0 12px 32px rgba(0,0,0,.12);display:flex;align-items:center;gap:6px;padding:8px">
+        <button sc-camel-on-click="{{ tabHome }}" style="flex:1;background:{{ bgHome }};border:none;border-radius:14px;display:flex;flex-direction:column;align-items:center;gap:3px;padding:9px 0 8px;cursor:pointer;transition:background .2s ease" style-active="transform:scale(.96)"><svg width="22" height="22" sc-camel-view-box="0 0 24 24" fill="none" stroke="{{ icHome }}" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10.5 12 4l8 6.5V20h-5.5v-5.5h-5V20H4v-9.5Z"></path></svg><span style="font-size:10px;font-weight:600;color:{{ icHome }}">Home</span></button>
+        <button sc-camel-on-click="{{ tabProducts }}" style="flex:1;background:{{ bgProducts }};border:none;border-radius:14px;display:flex;flex-direction:column;align-items:center;gap:3px;padding:9px 0 8px;cursor:pointer;transition:background .2s ease" style-active="transform:scale(.96)"><svg width="22" height="22" sc-camel-view-box="0 0 24 24" fill="none" stroke="{{ icProducts }}" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 8.5 12 4.5l8.5 4-8.5 4-8.5-4Z"></path><path d="M3.5 8.5v7l8.5 4 8.5-4v-7M12 12.5v7"></path></svg><span style="font-size:10px;font-weight:600;color:{{ icProducts }}">Products</span></button>
+        <button sc-camel-on-click="{{ tabAdd }}" style="width:54px;height:54px;border-radius:50%;border:none;background:#101114;display:flex;align-items:center;justify-content:center;cursor:pointer;flex:none;box-shadow:0 8px 20px rgba(0,0,0,.3)" style-active="transform:scale(.92)"><svg width="18" height="18" sc-camel-view-box="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"><path d="M12 5.5v13M5.5 12h13"></path></svg></button>
+        <span style="position:relative;flex:1;display:flex;flex-direction:column;align-items:center">
+          <button sc-camel-on-click="{{ tabAlerts }}" style="flex:1;background:{{ bgAlerts }};border:none;border-radius:14px;display:flex;flex-direction:column;align-items:center;gap:3px;padding:9px 0 8px;cursor:pointer;transition:background .2s ease" style-active="transform:scale(.96)"><svg width="22" height="22" sc-camel-view-box="0 0 24 24" fill="none" stroke="{{ icAlerts }}" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15.5V11a6 6 0 1 0-12 0v4.5L4.5 18h15L18 15.5Z"></path><path d="M10 21h4"></path></svg><span style="font-size:10px;font-weight:600;color:{{ icAlerts }}">Alerts</span></button>
+          <sc-if value="{{ hasAlerts }}" hint-placeholder-val="{{ true }}"><span style="position:absolute;top:6px;right:50%;margin-right:-26px;width:10px;height:10px;border-radius:50%;background:#D93A3F;border:2px solid #fff"></span></sc-if>
+        </span>
+        <button sc-camel-on-click="{{ tabProfile }}" style="flex:1;background:{{ bgProfile }};border:none;border-radius:14px;display:flex;flex-direction:column;align-items:center;gap:3px;padding:9px 0 8px;cursor:pointer;transition:background .2s ease" style-active="transform:scale(.96)"><svg width="22" height="22" sc-camel-view-box="0 0 24 24" fill="none" stroke="{{ icProfile }}" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8.5" r="3.8"></circle><path d="M4.5 20c.8-3.6 3.8-5.5 7.5-5.5s6.7 1.9 7.5 5.5"></path></svg><span style="font-size:10px;font-weight:600;color:{{ icProfile }}">Profile</span></button>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ sheetOpen }}" hint-placeholder-val="{{ false }}">
+    <div sc-camel-on-click="{{ closeSheet }}" style="position:absolute;inset:0;background:rgba(16,17,20,.32);z-index:60;display:flex;flex-direction:column;justify-content:flex-end;padding:10px;animation:dim .2s ease">
+      <div style="animation:sheetUp .26s cubic-bezier(.2,.8,.3,1)">
+        <div style="background:rgba(255,255,255,.97);backdrop-filter:blur(20px);border-radius:28px;overflow:hidden;margin-bottom:8px">
+          <div style="padding:12px;text-align:center;font-size:13px;color:#8A8D96">{{ sheetTitle }}</div>
+          <sc-for list="{{ sheetOptions }}" as="o" hint-placeholder-count="3">
+            <button sc-camel-on-click="{{ o.pick }}" style="width:100%;height:55px;border:none;border-top:1px solid #E4E4E9;background:none;font-size:18.5px;color:{{ o.color }};cursor:pointer" style-active="transform:scale(.97)">{{ o.t }}</button>
+          </sc-for>
+        </div>
+        <button sc-camel-on-click="{{ closeSheet }}" style="width:100%;height:55px;border:none;border-radius:22px;background:#fff;font-size:18.5px;font-weight:600;color:#101114;cursor:pointer" style-active="transform:scale(.97)">Cancel</button>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ confirmOpen }}" hint-placeholder-val="{{ false }}">
+    <div style="position:absolute;inset:0;background:rgba(16,17,20,.32);z-index:65;display:flex;align-items:center;justify-content:center;padding:32px;animation:dim .2s ease">
+      <div style="width:100%;background:rgba(255,255,255,.98);border-radius:17px;overflow:hidden;text-align:center;animation:pop .22s ease">
+        <div style="padding:20px 18px 16px">
+          <div style="font-size:17px;font-weight:600;color:#101114">Delete product?</div>
+          <div style="font-size:13.5px;color:#5F6270;margin-top:5px;line-height:1.45">{{ confirmName }} and its receipt and warranty will be removed from Ownly.</div>
+        </div>
+        <div style="display:flex;border-top:1px solid #E4E4E9">
+          <button sc-camel-on-click="{{ closeConfirm }}" style="flex:1;height:48px;border:none;background:none;font-size:17px;color:#101114;cursor:pointer" style-active="transform:scale(.97)">Cancel</button>
+          <button sc-camel-on-click="{{ doDelete }}" style="flex:1;height:48px;border:none;border-left:1px solid #E4E4E9;background:none;font-size:17px;font-weight:600;color:#D93A3F;cursor:pointer" style-active="transform:scale(.97)">Delete</button>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ viewerOpen }}" hint-placeholder-val="{{ false }}">
+    <div style="position:absolute;inset:0;background:#101114;z-index:70;display:flex;flex-direction:column;animation:dim .2s ease">
+      <div style="padding:60px 20px 14px;display:flex;align-items:center;justify-content:space-between">
+        <span style="font-size:15px;color:#fff;font-weight:500">{{ viewerTitle }}</span>
+        <button sc-camel-on-click="{{ closeViewer }}" style="width:34px;height:34px;border-radius:50%;border:none;background:rgba(255,255,255,.14);display:flex;align-items:center;justify-content:center;cursor:pointer" style-active="transform:scale(.97)">
+          <svg width="15" height="15" sc-camel-view-box="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+        </button>
+      </div>
+      <div style="flex:1;padding:0 20px 30px;display:flex;align-items:center">
+        <div style="width:100%;background:#fff;border-radius:10px;padding:26px;animation:fadeUp .25s ease">
+          <div style="font:600 11px ui-monospace,Menlo,monospace;color:#9A9DA6;letter-spacing:.08em;margin-bottom:16px">{{ viewerTitle }}</div>
+          <div style="font-size:19px;font-weight:600;color:#101114">{{ sel.name }}</div>
+          <div style="font-size:14px;color:#8A8D96;margin-bottom:20px">{{ sel.brand }} · {{ sel.store }}</div>
+          <sc-for list="{{ purchaseRows }}" as="r" hint-placeholder-count="4">
+            <div style="display:flex;justify-content:space-between;padding:11px 0;border-top:1px solid #F2F2F5;font-size:14.5px">
+              <span style="color:#8A8D96">{{ r.k }}</span><span style="color:#101114">{{ r.v }}</span>
+            </div>
+          </sc-for>
+          <div style="margin-top:22px;background:#E9E9ED;border-radius:6px;padding:16px">
+            <div style="background:#FBFAF7;border-radius:2px;padding:16px 14px;transform:rotate(.8deg);box-shadow:0 10px 20px rgba(16,24,40,.14);font:400 11.5px ui-monospace,Menlo,monospace;color:#33353C;line-height:1.7">
+              <div style="text-align:center;font-weight:700;letter-spacing:.14em">{{ receiptStore }}</div>
+              <div style="margin:11px 0;border-top:1px dashed #C9C6BE"></div>
+              <sc-for list="{{ receiptLines }}" as="l" hint-placeholder-count="3">
+                <div style="display:flex;justify-content:space-between;gap:10px"><span>{{ l.k }}</span><span>{{ l.v }}</span></div>
+              </sc-for>
+              <div style="margin:11px 0;border-top:1px dashed #C9C6BE"></div>
+              <div style="display:flex;justify-content:space-between;font-weight:700"><span>TOTAL</span><span>{{ sel.price }}</span></div>
+              <div style="display:flex;gap:1.5px;justify-content:center;height:26px;align-items:flex-end;margin-top:12px">
+                <sc-for list="{{ barcode }}" as="b" hint-placeholder-count="30">
+                  <span style="width:{{ b.w }};height:24px;background:#2A2C31;opacity:{{ b.o }}"></span>
+                </sc-for>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ cameraOpen }}" hint-placeholder-val="{{ false }}">
+    <div style="position:absolute;inset:0;background:#0B0B0D;z-index:75;display:flex;flex-direction:column;animation:dim .2s ease">
+      <div style="padding:58px 20px 10px;display:flex;align-items:center;justify-content:space-between">
+        <button sc-camel-on-click="{{ closeCamera }}" style="border:none;background:none;color:#fff;font-size:16px;cursor:pointer;padding:6px 2px" style-active="transform:scale(.97)">Cancel</button>
+        <span style="font:600 11px ui-monospace,Menlo,monospace;color:rgba(255,255,255,.6);letter-spacing:.1em">{{ cameraLabel }}</span>
+        <span style="width:52px"></span>
+      </div>
+      <div style="flex:1;margin:0 14px;border-radius:22px;background:#1A1B1F;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center">
+        <div style="position:absolute;inset:0;background:repeating-linear-gradient(180deg,rgba(255,255,255,.02) 0 2px,transparent 2px 4px)"></div>
+        <div style="position:absolute;inset:34px;border:1px solid rgba(255,255,255,.22);border-radius:6px"></div>
+        <div style="position:absolute;top:34px;left:34px;width:26px;height:26px;border-top:2.5px solid #fff;border-left:2.5px solid #fff;border-radius:4px 0 0 0"></div>
+        <div style="position:absolute;top:34px;right:34px;width:26px;height:26px;border-top:2.5px solid #fff;border-right:2.5px solid #fff;border-radius:0 4px 0 0"></div>
+        <div style="position:absolute;bottom:34px;left:34px;width:26px;height:26px;border-bottom:2.5px solid #fff;border-left:2.5px solid #fff;border-radius:0 0 0 4px"></div>
+        <div style="position:absolute;bottom:34px;right:34px;width:26px;height:26px;border-bottom:2.5px solid #fff;border-right:2.5px solid #fff;border-radius:0 0 4px 0"></div>
+        <div style="font:600 11px ui-monospace,Menlo,monospace;color:rgba(255,255,255,.45);letter-spacing:.08em;text-align:center;padding:0 40px;line-height:1.8">{{ cameraHint }}</div>
+        <sc-if value="{{ flashOn }}" hint-placeholder-val="{{ false }}">
+          <div style="position:absolute;inset:0;background:#fff;animation:dim .12s ease"></div>
+        </sc-if>
+      </div>
+      <div style="padding:22px 20px 34px;display:flex;align-items:center;justify-content:center;gap:34px">
+        <span style="width:34px;height:34px;border-radius:6px;border:1px solid rgba(255,255,255,.3)"></span>
+        <button sc-camel-on-click="{{ shoot }}" style="width:68px;height:68px;border-radius:50%;background:#fff;border:4px solid rgba(255,255,255,.35);cursor:pointer;transition:transform .1s ease" style-active="transform:scale(.92)"></button>
+        <span style="width:34px;height:34px;border-radius:50%;border:1px solid rgba(255,255,255,.3)"></span>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ toastOn }}" hint-placeholder-val="{{ false }}">
+    <div style="position:absolute;bottom:104px;left:20px;right:20px;background:rgba(24,30,26,.82);backdrop-filter:blur(18px) saturate(1.3);-webkit-backdrop-filter:blur(18px) saturate(1.3);border:1px solid rgba(255,255,255,.16);color:#fff;border-radius:20px;padding:12px 14px;font-size:14px;z-index:80;animation:fadeUp .22s ease;display:flex;gap:10px;align-items:center;box-shadow:0 12px 30px rgba(0,0,0,.30)"><span style="width:22px;height:22px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;flex:none"><svg width="12" height="12" sc-camel-view-box="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"></path></svg></span><span>{{ toastText }}</span></div>
+  </sc-if>
+
+</div>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script="" data-props="{&quot;$preview&quot;:{&quot;width&quot;:520,&quot;height&quot;:940},&quot;accent&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#101114&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;options&quot;:[&quot;#4B5CE6&quot;,&quot;#2F6FED&quot;,&quot;#101114&quot;,&quot;#0E7C6B&quot;],&quot;section&quot;:&quot;Theme&quot;},&quot;startScreen&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;default&quot;:&quot;onboarding&quot;,&quot;options&quot;:[&quot;splash&quot;,&quot;onboarding&quot;,&quot;home&quot;],&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Prototype&quot;}}">
+const TODAY = new Date(2026, 8, 3);
+const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const fmt = (d) => d.getDate() + " " + MONTHS[d.getMonth()] + " " + d.getFullYear();
+const short = (d) => MONTHS[d.getMonth()] + " " + d.getFullYear();
+const days = (d) => Math.round((d - TODAY) / 86400000);
+
+const RES = (id, fallback) => (typeof window !== "undefined" && window.__resources && window.__resources[id]) || fallback;
+const PHOTOS = { get "AirPods Pro"() { return RES("airpods", "assets/airpods.jpeg"); } };
+const ART = {
+  "MacBook Air": { bg: "linear-gradient(135deg,#FFFFFF,#EFF0F3)", ink: "#101114" },
+  "AirPods Pro": { bg: "linear-gradient(135deg,#FFFFFF,#EFF0F3)", ink: "#101114" },
+  "iPhone 16": { bg: "linear-gradient(135deg,#FFFFFF,#EFF0F3)", ink: "#101114" },
+  "Watch SE": { bg: "linear-gradient(135deg,#FFFFFF,#EFF0F3)", ink: "#101114" },
+  "WH-1000XM5": { bg: "linear-gradient(135deg,#FFFFFF,#EFF0F3)", ink: "#101114" },
+  "Coffee Machine": { bg: "linear-gradient(135deg,#FFFFFF,#EFF0F3)", ink: "#101114" },
+  "OLED Television": { bg: "linear-gradient(135deg,#FFFFFF,#EFF0F3)", ink: "#101114" },
+  "Washing Machine": { bg: "linear-gradient(135deg,#FFFFFF,#EFF0F3)", ink: "#101114" }
+};
+const CAT_ART = {
+  "Electronics": { bg: "linear-gradient(135deg,#FFFFFF,#EFF0F3)", ink: "#101114" },
+  "Home Appliances": { bg: "linear-gradient(135deg,#FFFFFF,#EFF0F3)", ink: "#101114" },
+  "Personal": { bg: "linear-gradient(135deg,#FFFFFF,#EFF0F3)", ink: "#101114" },
+  "Other": { bg: "linear-gradient(135deg,#FFFFFF,#EFF0F3)", ink: "#101114" }
+};
+const artFor = (name, category) => ART[name] || CAT_ART[category] || CAT_ART["Other"];
+const STATUS_BG = { expired: "#FDECEC", soon: "#FFF3DF", active: "#E5F4EB" };
+
+const SEED = [
+  ["MacBook Air","Apple","Electronics","₹85,000","Apple","W9241830021",[2026,2,12],[2027,2,12],"Manufacturer Warranty"],
+  ["AirPods Pro","Apple","Personal","₹24,900","Apple","W9241773310",[2025,9,3],[2026,9,3],"Manufacturer Warranty"],
+  ["iPhone 16","Apple","Electronics","₹79,900","Croma","CR8827311",[2026,0,18],[2027,0,18],"Manufacturer Warranty"],
+  ["Watch SE","Apple","Personal","₹29,900","Apple","W8811020394",[2024,6,2],[2025,6,2],"Manufacturer Warranty"],
+  ["WH-1000XM5","Sony","Personal","₹29,990","Reliance Digital","RD771209",[2026,5,12],[2027,5,12],"Extended Warranty"],
+  ["Coffee Machine","Philips","Home Appliances","₹18,500","Amazon","AMZ4471902",[2026,3,4],[2028,3,4],"Manufacturer Warranty"],
+  ["OLED Television","Samsung","Home Appliances","₹1,24,000","Vijay Sales","VS223418",[2025,10,21],[2026,10,21],"Store Warranty"],
+  ["Washing Machine","LG","Home Appliances","₹42,000","Croma","CR5590018",[2023,1,9],[2025,1,9],"Manufacturer Warranty"]
+];
+
+class Component extends DCLogic {
+  state = {
+    screen: "splash", stack: [], onb: 0,
+    query: "", locQuery: "", cat: "All", grid: false,
+    selected: 1, sheet: false, sheetCtx: "receipt", confirm: false, viewer: null, toast: "",
+    camera: null, flash: false, swiped: null, loading: false,
+    addStep: 1, newId: null, reminderOn: true, checks: { 3: false }, err: "",
+    draft: { name:"", brand:"", category:"Electronics", photo:false, date:"", price:"", store:"", order:"", wStart:"", wEnd:"", wType:"Manufacturer Warranty", wDoc:false, receipt:false, reminder:"30 days before" },
+    products: SEED.map((s, i) => ({
+      id: i, name: s[0], brand: s[1], category: s[2], price: s[3], store: s[4], orderNumber: s[5],
+      purchase: new Date(s[6][0], s[6][1], s[6][2]),
+      start: new Date(s[6][0], s[6][1], s[6][2]),
+      end: new Date(s[7][0], s[7][1], s[7][2]),
+      wType: s[8], receipt: true, wDoc: true, reminder: "30 days before"
+    }))
+  };
+
+  componentDidMount() {
+    const start = this.props.startScreen;
+    if (start === "home" || start === "onboarding") { this.setState({ screen: start }); return; }
+    this._t = setTimeout(() => this.setState(s => s.screen === "splash" ? { screen: "onboarding" } : {}), 1800);
+  }
+  componentWillUnmount() { clearTimeout(this._t); clearTimeout(this._toast); clearTimeout(this._load); }
+
+  go = (screen) => this.setState(s => ({ screen, stack: s.stack.concat([s.screen]) }));
+  back = () => this.setState(s => { const st = s.stack.slice(); const to = st.pop() || "home"; return { screen: to, stack: st }; });
+  jump = (screen) => this.setState({ screen, stack: [] });
+  toast = (t) => { clearTimeout(this._toast); this.setState({ toast: t }); this._toast = setTimeout(() => this.setState({ toast: "" }), 1700); };
+  setDraft(k, v) { this.setState(s => ({ draft: Object.assign({}, s.draft, { [k]: v }) })); }
+
+  status(p) {
+    const d = days(p.end);
+    if (d < 0) return { key:"expired", label:"Warranty expired", short:"Expired", title:"Warranty expired", upper:"WARRANTY EXPIRED", color:"#D93A3F", days:d };
+    if (d <= 45) return { key:"soon", label:"Ending in " + d + " days", short:d + "d left", title:"Warranty ending soon", upper:"WARRANTY ENDING SOON", color:"#C6741A", days:d };
+    return { key:"active", label:"Warranty active", short:"Active", title:"Warranty active", upper:"WARRANTY ACTIVE", color:"#2E7D4F", days:d };
+  }
+
+  photoFor(p) { return PHOTOS[p.name] || null; }
+
+  decorate = (p) => {
+    const st = this.status(p);
+    const img = this.photoFor(p);
+    const open = this.state.swiped === p.id;
+    const art = artFor(p.name, p.category);
+    return Object.assign({}, p, {
+      img, imgCss: img ? "url(" + img + ")" : "none", hasImg: !!img, noImg: !img,
+      artBg: art.bg, artInk: art.ink, statusBg: STATUS_BG[this.status(p).key],
+      offset: open ? "-96px" : "0px",
+      down: (e) => { this._x = e.clientX; },
+      up: (e) => {
+        const dx = e.clientX - (this._x || e.clientX);
+        if (dx < -34) this.setState({ swiped: p.id });
+        else if (dx > 34 && open) this.setState({ swiped: null });
+      },
+      rowTap: () => open
+        ? this.setState({ swiped: null })
+        : this.setState(s => ({ selected: p.id, screen: "detail", stack: s.stack.concat([s.screen]) })),
+      askDelete: (e) => { e.stopPropagation(); this.setState({ selected: p.id, confirm: true, swiped: null }); },
+      statusLabel: st.label, statusShort: st.short, statusColor: st.color,
+      untilLabel: st.days < 0 ? "Ended " + short(p.end) : "Until " + short(p.end),
+      slotId: "prod-" + p.id, gridSlotId: "prodg-" + p.id,
+      open: () => this.setState(s => ({ selected: p.id, screen: "detail", stack: s.stack.concat([s.screen]) }))
+    });
+  };
+
+  addProduct() {
+    const d = this.state.draft;
+    const id = 100 + this.state.products.length;
+    const parse = (v, fb) => { const dt = v ? new Date(v) : null; return dt && !isNaN(dt) ? dt : fb; };
+    const purchase = parse(d.date, new Date(2026, 8, 1));
+    const p = {
+      id, name: d.name || "AirPods Pro", brand: d.brand || "Apple", category: d.category,
+      price: d.price || "₹24,900", store: d.store || "Apple", orderNumber: d.order || "W9241773311",
+      purchase, start: parse(d.wStart, purchase),
+      end: parse(d.wEnd, new Date(purchase.getFullYear() + 1, purchase.getMonth(), purchase.getDate())),
+      wType: d.wType, receipt: d.receipt, wDoc: d.wDoc, reminder: d.reminder
+    };
+    this.setState(s => ({ products: s.products.concat([p]), newId: id, screen: "success", stack: [], err: "" }));
+  }
+
+  renderVals() {
+    const s = this.state, d = s.draft;
+    const accent = this.props.accent || "#101114";
+    const list = s.products.map(this.decorate);
+    const sel = s.products.find(p => p.id === s.selected) || s.products[0];
+    const st = this.status(sel);
+    const total = Math.max(sel.end - sel.start, 1);
+    const elapsed = Math.min(Math.max(TODAY - sel.start, 0), total);
+    const warn = list.filter(p => this.status(p).key === "soon")[0] || list.filter(p => this.status(p).key === "expired")[0];
+
+    const q = s.query.trim().toLowerCase();
+    const filtered = list.filter(p => {
+      const okCat = s.cat === "All" || p.category === s.cat ||
+        (s.cat === "Home" && p.category === "Home Appliances") || (s.cat === "Other" && p.category === "Other");
+      const okQ = !q || (p.name + " " + p.brand + " " + p.store + " " + p.category).toLowerCase().includes(q);
+      return okCat && okQ;
+    });
+
+    const chip = (name, active, pick) => ({
+      name, pick, bg: active ? "#101114" : "#fff",
+      color: active ? "#fff" : "#5F6270", border: active ? "#101114" : "#E4E4E9"
+    });
+    const radio = (name, active, pick, note) => ({
+      name, note: note || "", pick,
+      border: active ? "#101114" : "#EAEAEE", dot: active ? "#101114" : "#D2D4DC",
+      fill: active ? "#101114" : "transparent"
+    });
+
+    const alertList = list.filter(p => this.status(p).key !== "active");
+    const mkAlert = (p) => {
+      const a = this.status(p);
+      return {
+        name: p.name, slotId: "alert-" + p.id,
+        imgCss: this.photoFor(p) ? "url(" + this.photoFor(p) + ")" : "none", hasImg: !!this.photoFor(p), noImg: !this.photoFor(p),
+        artBg: artFor(p.name, p.category).bg, artInk: artFor(p.name, p.category).ink, statusBg: STATUS_BG[a.key],
+        kind: a.key === "expired" ? "Warranty expired" : "Warranty ending soon",
+        sub: a.key === "expired" ? "Expired " + Math.abs(a.days) + " days ago · " + fmt(p.end) : "Expires in " + a.days + " days · " + fmt(p.end),
+        color: a.color,
+        openWarranty: () => this.setState(x => ({ selected: p.id, screen: "warranty", stack: x.stack.concat(["alerts"]) })),
+        openClaim: () => this.setState(x => ({ selected: p.id, screen: "claim", stack: x.stack.concat(["alerts"]) }))
+      };
+    };
+
+    const stepMeta = [
+      ["Add product", "Tell us about your product."],
+      ["Purchase information", "Where and when did you buy it?"],
+      ["Add receipt", "Keep the purchase receipt with this product."],
+      ["Add warranty", "Add the warranty period and document."],
+      ["Warranty reminder", "When should we remind you?"],
+      ["Review", "Check everything before saving."]
+    ][s.addStep - 1];
+
+    const onbCopy = [
+      ["Everything about your products in one place.",
+       "Save receipts, warranties and product information so you can find them whenever you need them.",
+       "MACBOOK AIR", "Warranty active", "Ends", "12 Mar 2027"],
+      ["Never lose a receipt again.",
+       "Keep purchase documents attached to the product they belong to, not scattered across email and folders.",
+       "RECEIPT.PDF", "AirPods Pro", "Total", "₹24,900"],
+      ["Know when your warranty ends.",
+       "Ownly reminds you before a warranty expires, while there is still time to act.",
+       "REMINDER", "30 days before expiry", "Next alert", "3 Sep 2026"]
+    ][s.onb];
+
+    const needDefs = [["Product","Saved"],["Receipt","Saved"],["Warranty document","Saved"],["Product problem details","You add this"]];
+    const tabScreens = ["home","products","alerts","profile"];
+    const tabColor = (name) => s.screen === name ? accent : "#9A9DA6";
+    const navBg = (n) => s.screen === n ? "#E4E4E9" : "transparent";
+    const navIc = (n) => s.screen === n ? "#101114" : "#9A9DA6";
+
+    return {
+      accent,
+      isSplash: s.screen === "splash", isOnboarding: s.screen === "onboarding",
+      isHome: s.screen === "home", isProducts: s.screen === "products",
+      isDetail: s.screen === "detail", isReceipt: s.screen === "receipt",
+      isWarranty: s.screen === "warranty", isClaim: s.screen === "claim",
+      isService: s.screen === "service", isAlerts: s.screen === "alerts",
+      isProfile: s.screen === "profile", isAdd: s.screen === "add", isSuccess: s.screen === "success",
+      showTabs: tabScreens.indexOf(s.screen) >= 0,
+      isLoading: s.loading, ready: !s.loading, skel: [{}, {}, {}],
+      tHome: s.screen === "home", tProducts: s.screen === "products",
+      tAlerts: s.screen === "alerts", tProfile: s.screen === "profile",
+
+      cHome: tabColor("home"), cProducts: tabColor("products"), cAdd: tabColor("add"),
+      bgHome: navBg("home"), bgProducts: navBg("products"), bgAlerts: navBg("alerts"), bgProfile: navBg("profile"),
+      icHome: navIc("home"), icProducts: navIc("products"), icAlerts: navIc("alerts"), icProfile: navIc("profile"),
+      cAlerts: tabColor("alerts"), cProfile: tabColor("profile"),
+      tabHome: () => this.jump("home"), tabProducts: () => { this.setState({ screen: "products", stack: [], loading: true }); clearTimeout(this._load); this._load = setTimeout(() => this.setState({ loading: false }), 450); },
+      tabAlerts: () => this.jump("alerts"), tabProfile: () => this.jump("profile"),
+      tabAdd: () => this.setState({ screen: "add", addStep: 1, stack: ["home"] }),
+
+      onbTitle: onbCopy[0], onbBody: onbCopy[1], onbTag: onbCopy[2], onbCard: onbCopy[3],
+      onbRowK: onbCopy[4], onbRowV: onbCopy[5],
+      onbCta: s.onb === 2 ? "Get started" : "Continue",
+      onbDots: [0,1,2].map(i => ({ w: i === s.onb ? "20px" : "6px", bg: i === s.onb ? accent : "#E1E2E8" })),
+      onbNext: () => s.onb === 2 ? this.jump("home") : this.setState({ onb: s.onb + 1 }),
+      skipOnboarding: () => this.jump("home"),
+
+      productCount: s.products.length, docCount: s.products.length * 2,
+      activeCount: list.filter(p => this.status(p).key === "active").length,
+      recent: list.slice().reverse().slice(0, 3),
+      hasWarn: !!warn, warnName: warn ? warn.name : "",
+      warnArtBg: warn ? artFor(warn.name, warn.category).bg : "none", warnArtInk: warn ? artFor(warn.name, warn.category).ink : "#3A4A63",
+      warnStatusBg: warn ? STATUS_BG[this.status(warn).key] : "#F1F1F4", warnStatusColor: warn ? this.status(warn).color : "#8A8D96",
+      warnImgCss: warn && warn.img ? "url(" + warn.img + ")" : "none", warnHasImg: !!(warn && warn.img), warnNoImg: !(warn && warn.img),
+      warnSub: warn ? (this.status(warn).days < 0 ? "Expired " + fmt(warn.end) : "Expires in " + this.status(warn).days + " days · " + fmt(warn.end)) : "",
+      openWarn: () => warn && this.setState(x => ({ selected: warn.id, screen: "warranty", stack: x.stack.concat(["home"]) })),
+      goProducts: () => { this.go("products"); this.setState({ loading: true }); clearTimeout(this._load); this._load = setTimeout(() => this.setState({ loading: false }), 450); }, goAlerts: () => this.go("alerts"),
+      goAdd: () => this.setState(x => ({ screen: "add", addStep: 1, stack: x.stack.concat(["home"]) })),
+      goHome: () => this.jump("home"),
+
+      query: s.query, hasQuery: s.query.length > 0,
+      setQuery: (e) => this.setState({ query: e.target.value }),
+      clearQuery: () => this.setState({ query: "" }),
+      cats: ["All","Electronics","Home","Personal","Other"].map(c => chip(c, s.cat === c, () => { this.setState({ cat: c, loading: true }); clearTimeout(this._load); this._load = setTimeout(() => this.setState({ loading: false }), 350); })),
+      filtered, noResults: filtered.length === 0,
+      isGrid: s.grid, isList: !s.grid,
+      showListView: !s.grid && filtered.length > 0, showGridView: s.grid && filtered.length > 0,
+      toggleView: () => this.setState({ grid: !s.grid }),
+
+      sel, selImgCss: this.photoFor(sel) ? "url(" + this.photoFor(sel) + ")" : "none", selHasImg: !!this.photoFor(sel), selNoImg: !this.photoFor(sel),
+      selArtBg: artFor(sel.name, sel.category).bg, selArtInk: artFor(sel.name, sel.category).ink, selStatusBg: STATUS_BG[st.key],
+      selSlotId: "prod-detail-" + sel.id, selClaimSlotId: "prod-claim-" + sel.id,
+      selStatusColor: st.color, selStatusTitle: st.title, selStatusUpper: st.upper,
+      selDaysLine: st.days < 0 ? Math.abs(st.days) + " days ago" : st.days + " days remaining",
+      selEndsLine: st.days < 0 ? "Expired " + fmt(sel.end) : "Ends " + fmt(sel.end),
+      selProgress: Math.round((1 - elapsed / total) * 100) + "%",
+      selStart: fmt(sel.start), selEnd: fmt(sel.end), selWarrantyType: sel.wType,
+      purchaseRows: [
+        { k: "Purchased", v: fmt(sel.purchase) },
+        { k: "Price", v: sel.price },
+        { k: "Store", v: sel.store },
+        { k: "Order", v: sel.orderNumber }
+      ],
+      coverage: [{ t: "Manufacturing defects" }, { t: "Hardware problems" }, { t: "Battery service, conditions apply" }],
+      needs: needDefs.map((n, i) => {
+        const done = i < 3 || s.checks[3];
+        return {
+          t: n[0], state: i < 3 ? n[1] : (s.checks[3] ? "Added" : n[1]),
+          ring: done ? "#2E7D4F" : "#D2D4DC", fill: done ? "#2E7D4F" : "transparent",
+          tick: done ? "#fff" : "transparent",
+          toggle: i === 3 ? () => this.setState({ checks: { 3: !s.checks[3] } }) : () => {}
+        };
+      }),
+      steps: [
+        { n: 1, t: "Check your warranty status and end date" },
+        { n: 2, t: "Keep your receipt and warranty document ready" },
+        { n: 3, t: "Contact the brand service center" },
+        { n: 4, t: "Submit the documents they ask for" },
+        { n: 5, t: "Follow up on the service request" }
+      ],
+      centers: [
+        { name: "Authorised service center, Andheri", dist: "2.4 km away", open: "Open until 8 PM" },
+        { name: "Authorised service center, Bandra", dist: "4.1 km away", open: "Open until 7 PM" },
+        { name: "Brand support desk, Lower Parel", dist: "6.8 km away", open: "Opens 10 AM" }
+      ].filter(c => !s.locQuery.trim() || (c.name + " " + c.dist).toLowerCase().includes(s.locQuery.trim().toLowerCase())),
+      noCenters: ["Authorised service center, Andheri", "Authorised service center, Bandra", "Brand support desk, Lower Parel"].filter(n => !s.locQuery.trim() || n.toLowerCase().includes(s.locQuery.trim().toLowerCase())).length === 0, hasLoc: s.locQuery.length > 0,
+      locQuery: s.locQuery, setLoc: (e) => this.setState({ locQuery: e.target.value }), clearLoc: () => this.setState({ locQuery: "" }),
+      back: this.back,
+      goWarranty: () => this.go("warranty"), goReceipt: () => this.go("receipt"),
+      goClaim: () => this.go("claim"), goService: () => this.go("service"),
+
+      reminderTrack: s.reminderOn ? "#2E7D4F" : "#D8D9DF",
+      reminderKnob: s.reminderOn ? "21px" : "2.5px",
+      toggleReminder: () => { this.setState({ reminderOn: !s.reminderOn }); this.toast(s.reminderOn ? "Reminder turned off" : "Reminder set 30 days before expiry"); },
+
+      hasAlerts: alertList.length > 0, noAlerts: alertList.length === 0, alertCount: alertList.length,
+      alertGroups: [
+        { label: "TODAY", items: alertList.filter(p => this.status(p).key === "soon").map(mkAlert) },
+        { label: "EARLIER", items: alertList.filter(p => this.status(p).key === "expired").map(mkAlert) }
+      ].filter(g => g.items.length > 0),
+
+      profileSections: [
+        { label: "ACCOUNT", rows: [
+          { t: "Personal information", v: "", tap: () => this.toast("Account details") },
+          { t: "Security", v: "Face ID on", tap: () => this.toast("Security settings") }
+        ]},
+        { label: "NOTIFICATIONS", rows: [{ t: "Reminder settings", v: "30 days", tap: () => this.toast("Reminder settings") }] },
+        { label: "STORAGE", rows: [{ t: "Documents & storage", v: (s.products.length * 2) + " files", tap: () => this.toast("Storage") }] },
+        { label: "HELP", rows: [
+          { t: "Help center", v: "", tap: () => this.toast("Help center") },
+          { t: "Contact us", v: "", tap: () => this.toast("Contact us") }
+        ]},
+        { label: "PRIVACY", rows: [{ t: "Privacy policy", v: "", tap: () => this.toast("Privacy policy") }] }
+      ],
+
+      addTitle: stepMeta[0], addSubtitle: stepMeta[1],
+      stepLabel: s.addStep > 5 ? "Review" : s.addStep + "/5",
+      hasErr: s.err.length > 0, errText: s.err, nameBorder: s.err ? "#D93A3F" : "#EAEAEE",
+      stepDots: [1,2,3,4,5].map(i => ({ bg: i <= Math.min(s.addStep, 5) ? accent : "#E1E2E8" })),
+      step1: s.addStep === 1, step2: s.addStep === 2, step3: s.addStep === 3,
+      step4: s.addStep === 4, step5: s.addStep === 5, step6: s.addStep === 6,
+      addCta: s.addStep === 6 ? "Save product" : s.addStep === 5 ? "Review" : "Continue",
+      canSkip: s.addStep === 3 || s.addStep === 4,
+      addNext: () => { if (s.addStep === 6) { this.addProduct(); return; } if (s.addStep === 1 && !s.draft.name.trim()) { this.setState({ err: "Please enter the product name" }); return; } this.setState({ addStep: s.addStep + 1, err: "" }); },
+      addSkip: () => this.setState({ addStep: s.addStep + 1 }),
+      addBack: () => s.addStep === 1 ? this.back() : this.setState({ addStep: s.addStep - 1 }),
+      editReview: () => this.setState({ addStep: 1 }),
+
+      dName: d.name, dBrand: d.brand, dCategory: d.category, dDate: d.date, dPrice: d.price,
+      dStore: d.store, dOrder: d.order, dwStart: d.wStart, dwEnd: d.wEnd, dReminder: d.reminder,
+      setName: (e) => { this.setDraft("name", e.target.value); if (s.err) this.setState({ err: "" }); },
+      setBrand: (e) => this.setDraft("brand", e.target.value),
+      setDate: (e) => this.setDraft("date", e.target.value),
+      setPrice: (e) => this.setDraft("price", e.target.value),
+      setStore: (e) => this.setDraft("store", e.target.value),
+      setOrder: (e) => this.setDraft("order", e.target.value),
+      setWStart: (e) => this.setDraft("wStart", e.target.value),
+      setWEnd: (e) => this.setDraft("wEnd", e.target.value),
+      addCats: ["Electronics","Home Appliances","Personal","Other"].map(c => chip(c, d.category === c, () => this.setDraft("category", c))),
+      wTypes: ["Manufacturer Warranty","Extended Warranty","Store Warranty","Other"].map(t => radio(t, d.wType === t, () => this.setDraft("wType", t))),
+      reminders: ["7 days before","15 days before","30 days before","60 days before"].map(r => radio(r, d.reminder === r, () => this.setDraft("reminder", r), r === "30 days before" ? "Recommended" : "")),
+      photoLabel: d.photo ? "Photo added" : "Take photo or choose from library",
+      warrantyDocLabel: d.wDoc ? "warranty.pdf added" : "Upload warranty document",
+      addWarrantyDoc: () => { this.setDraft("wDoc", true); this.toast("Warranty document added"); },
+      hasReceipt: d.receipt, noReceipt: !d.receipt,
+      removeReceipt: () => { this.setDraft("receipt", false); this.toast("Receipt removed"); },
+
+      sheetOpen: s.sheet,
+      sheetTitle: s.sheetCtx === "photo" ? "Add a product photo" : "Add a receipt or document",
+      openSheet: () => this.setState({ sheet: true, sheetCtx: s.addStep === 1 ? "photo" : "receipt" }),
+      closeSheet: () => this.setState({ sheet: false }),
+      sheetOptions: (s.sheetCtx === "photo"
+        ? ["Take photo","Choose from library","Scan product label"]
+        : ["Scan receipt with camera","Choose from Files","Choose from library"]).map(t => ({
+        t, color: accent,
+        pick: () => {
+          const isPhoto = s.sheetCtx === "photo";
+          if (t.indexOf("Take photo") === 0 || t.indexOf("Scan") === 0) {
+            this.setState({ sheet: false, camera: isPhoto ? "photo" : "receipt" });
+            return;
+          }
+          this.setState(prev => ({ sheet: false, draft: Object.assign({}, prev.draft, isPhoto ? { photo: true } : { receipt: true }) }));
+          this.toast(isPhoto ? "Photo added — drop your own on the frame above" : "Receipt.pdf added");
+        }
+      })),
+
+      openMenu: () => this.setState({ confirm: true }),
+      confirmOpen: s.confirm, confirmName: sel.name,
+      closeConfirm: () => this.setState({ confirm: false }),
+      doDelete: () => this.setState(x => ({
+        confirm: false, products: x.products.filter(p => p.id !== sel.id),
+        screen: "products", stack: []
+      })),
+
+      viewerOpen: !!s.viewer, viewerTitle: s.viewer === "warranty" ? "warranty.pdf" : "receipt.pdf",
+      openViewer: () => this.setState({ viewer: s.screen === "warranty" ? "warranty" : "receipt" }),
+      closeViewer: () => this.setState({ viewer: null }),
+
+      draftImgCss: PHOTOS[d.name] ? "url(" + PHOTOS[d.name] + ")" : "none", draftHasImg: !!PHOTOS[d.name], draftNoImg: !PHOTOS[d.name],
+      draftArtBg: artFor(d.name || "AirPods Pro", d.category).bg, draftArtInk: artFor(d.name || "AirPods Pro", d.category).ink,
+      reviewName: d.name || "AirPods Pro", reviewBrand: d.brand || "Apple",
+      reviewRows: [
+        { k: "Purchase date", v: d.date || "1 Sep 2026" },
+        { k: "Price", v: d.price || "₹24,900" },
+        { k: "Store", v: d.store || "Apple" },
+        { k: "Receipt", v: d.receipt ? "Added" : "Not added" },
+        { k: "Warranty", v: d.wDoc ? "Added" : "Not added" },
+        { k: "Reminder", v: d.reminder }
+      ],
+      successRows: [
+        { k: "Receipt", v: d.receipt ? "Added" : "Skipped" },
+        { k: "Warranty", v: d.wDoc ? "Added" : "Skipped" },
+        { k: "Reminder", v: d.reminder }
+      ],
+      viewNewProduct: () => this.setState({ selected: s.newId, screen: "detail", stack: ["home"] }),
+
+      receiptStore: (sel.store || "STORE").toUpperCase(),
+      receiptAddr: "GST 27AABCU9603R1ZX · MUMBAI",
+      receiptDate: fmt(sel.purchase) + "  14:32",
+      receiptLines: [
+        { k: sel.name.toUpperCase().slice(0, 16), v: sel.price },
+        { k: "QTY 1 @ " + sel.price, v: "" },
+        { k: "SUBTOTAL", v: sel.price },
+        { k: "GST INCLUDED", v: "—" }
+      ],
+      barcode: Array.from({ length: 34 }, (_, i) => ({
+        w: (i * 7 % 3 === 0 ? 3 : 1.5) + "px",
+        o: (i * 5 % 4 === 0 ? .55 : 1)
+      })),
+
+      openReceiptCamera: () => this.setState({ camera: "receipt" }),
+      openProductCamera: () => this.setState({ camera: "photo" }),
+      cameraOpen: !!s.camera, flashOn: s.flash,
+      cameraLabel: s.camera === "receipt" ? "SCAN RECEIPT" : "PRODUCT PHOTO",
+      cameraHint: s.camera === "receipt" ? "Place the receipt inside the frame" : "Frame the product and tap the shutter",
+      closeCamera: () => this.setState({ camera: null }),
+      shoot: () => {
+        const kind = s.camera;
+        this.setState({ flash: true });
+        setTimeout(() => this.setState(prev => ({
+          flash: false, camera: null,
+          draft: Object.assign({}, prev.draft, kind === "receipt" ? { receipt: true } : { photo: true })
+        })), 160);
+        this.toast(kind === "receipt" ? "Receipt captured" : "Photo captured — drop your own on the frame to replace");
+      },
+
+      toastOn: !!s.toast, toastText: s.toast,
+      toastDownload: () => this.toast("Saved to your device"),
+      toastShare: () => this.toast("Share sheet would open here"),
+      toastDirections: () => this.toast("Directions would open in Maps")
+    };
+  }
+}
+
+</script>
+
+
+</body></html>
